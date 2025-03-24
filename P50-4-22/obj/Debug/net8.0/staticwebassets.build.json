@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XMHIhVLfn7Kw7tXKtIlqmoA7cBXKf1c+Oplt69VRiCM=",
+  "Hash": "N9Oki3GCE+TiZkPbuZ/LbnIfdWqB3xahCoMud5zN1xg=",
   "Source": "P50-4-22",
   "BasePath": "_content/P50-4-22",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\P50-4-22.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
+      "SourceId": "P50-4-22",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\",
+      "BasePath": "_content/P50-4-22",
+      "RelativePath": "css/admin-panel#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ss4zunzych",
+      "Integrity": "DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin-panel.css"
     },
     {
       "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\create-product.css",
@@ -220,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dm8uzmmysy",
-      "Integrity": "JYLkrwW8rEtol8YvMUBGP1WtCzrUdwKCqZEnNq9xYA4=",
+      "Fingerprint": "9svt3bfe7s",
+      "Integrity": "11p4k5GnAIWmgxH8Su5LAwg56TZXeNbY6KJvyyhc+eg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1668,6 +1689,88 @@
       ]
     },
     {
+      "Route": "css/admin-panel.css",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 22:13:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-panel.ss4zunzych.css",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 22:13:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ss4zunzych"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-panel.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo="
+        }
+      ]
+    },
+    {
       "Route": "css/create-product.css",
       "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\create-product.css",
       "Selectors": [],
@@ -2078,6 +2181,51 @@
       ]
     },
     {
+      "Route": "css/site.9svt3bfe7s.css",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1182"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"11p4k5GnAIWmgxH8Su5LAwg56TZXeNbY6KJvyyhc+eg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 22:02:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9svt3bfe7s"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-11p4k5GnAIWmgxH8Su5LAwg56TZXeNbY6KJvyyhc+eg="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2088,7 +2236,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1458"
+          "Value": "1182"
         },
         {
           "Name": "Content-Type",
@@ -2096,11 +2244,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JYLkrwW8rEtol8YvMUBGP1WtCzrUdwKCqZEnNq9xYA4=\""
+          "Value": "\"11p4k5GnAIWmgxH8Su5LAwg56TZXeNbY6KJvyyhc+eg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 17:31:38 GMT"
+          "Value": "Mon, 24 Mar 2025 22:02:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2110,52 +2258,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JYLkrwW8rEtol8YvMUBGP1WtCzrUdwKCqZEnNq9xYA4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.dm8uzmmysy.css",
-      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1458"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JYLkrwW8rEtol8YvMUBGP1WtCzrUdwKCqZEnNq9xYA4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 17:31:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dm8uzmmysy"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JYLkrwW8rEtol8YvMUBGP1WtCzrUdwKCqZEnNq9xYA4="
+          "Value": "sha256-11p4k5GnAIWmgxH8Su5LAwg56TZXeNbY6KJvyyhc+eg="
         }
       ]
     },

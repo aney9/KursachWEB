@@ -1,22 +1,65 @@
-﻿@model IEnumerable<P50_4_22.Models.CatalogProduct>
+﻿@model Tuple<IEnumerable<P50_4_22.Models.CatalogProduct>, IEnumerable<P50_4_22.Models.Brand>>
 
 @{
-	ViewBag.Title = "Панель администратора";
+    ViewBag.Title = "Панель администратора";
 }
 
-<a asp-action="Create" asp-controller="CRUD">Добавить товар</a>
-<table class="table">
-	@foreach(var item in Model)
-	{
-		<tr>
-			<td class="text">
-				@item.ProductName
-			</td>
-			<td>
-				<a asp-action="Details" asp-controller="CRUD" asp-route-id="@item.IdCatalogproducts">Подробнее</a>
-				<a asp-action="Edit" asp-controller="CRUD" asp-route-id="@item.IdCatalogproducts">Изменить</a>
-				<a asp-action="Delete" asp-controller="CRUD" asp-route-id="@item.IdCatalogproducts">Удалить</a>
-			</td>
-		</tr>
-	}
-</table>
+<div class="admin-container">
+    <!-- Таблица продуктов -->
+    <div class="table-section">
+        <h2>Продукты</h2>
+        <table class="admin-table">
+            <thead>
+                <tr>
+                    <th>Название продукта</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Item1) // CatalogProduct
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td class="actions">
+                            <a asp-action="Create" asp-controller="CRUDController" class="action-link create">Добавить</a>
+                            <a asp-action="Details" asp-controller="CRUDController" asp-route-id="@item.IdCatalogproducts" class="action-link details">Подробнее</a>
+                            <a asp-action="Edit" asp-controller="CRUDController" asp-route-id="@item.IdCatalogproducts" class="action-link edit">Изменить</a>
+                            <a asp-action="Delete" asp-controller="CRUDController" asp-route-id="@item.IdCatalogproducts" class="action-link delete">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Таблица категорий -->
+    <div class="table-section">
+        <h2>Категории</h2>
+        <table class="admin-table">
+            <thead>
+                <tr>
+                    <th>Название категории</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Item2) // Categories
+                {
+                    <tr>
+                        <td>@item.Brand1</td>
+                        <td class="actions">
+                            <a asp-action="Create" asp-controller="CRUDController" class="action-link create">Добавить</a>
+                            <a asp-action="Details" asp-controller="CRUDController" asp-route-id="@item.IdBrands" class="action-link details">Подробнее</a>
+                            <a asp-action="Edit" asp-controller="CRUDController" asp-route-id="@item.IdBrands" class="action-link edit">Изменить</a>
+                            <a asp-action="Delete" asp-controller="CRUDController" asp-route-id="@item.IdBrands" class="action-link delete">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/admin-panel.css" />
+}

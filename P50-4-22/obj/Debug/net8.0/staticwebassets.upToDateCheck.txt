@@ -1,3 +1,4 @@
+wwwroot\css\admin-panel.css
 wwwroot\css\create-product.css
 wwwroot\css\footer.css
 wwwroot\css\header.css

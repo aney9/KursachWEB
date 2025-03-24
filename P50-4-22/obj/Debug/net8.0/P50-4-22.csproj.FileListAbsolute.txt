@@ -1048,3 +1048,4 @@ C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debu
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.pdb
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.genruntimeconfig.cache
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\ref\P50-4-22.dll
+C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.sourcelink.json

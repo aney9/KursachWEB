@@ -21,8 +21,11 @@ namespace P50_4_22.Controllers
 
 		public IActionResult Create()
 		{
-			return View();
-		}
+            var products = db.CatalogProducts.ToList();
+            var brand = db.Brands.ToList();
+            var model = new Tuple<IEnumerable<CatalogProduct>, IEnumerable<Brand>>(products, brand);
+            return View(model);
+        }
 
 		[HttpPost]
 		public async Task<IActionResult> Create(CatalogProduct cp)
