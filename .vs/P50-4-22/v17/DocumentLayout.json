@@ -1,0 +1,538 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\crud\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\crud\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\create-product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\create-product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\crud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\crud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\crud\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\crud\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\models\\petstorerpmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\models\\petstorerpmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\profile\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\profile\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\user\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\user\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\user\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\user\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\components\\averagerating\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\components\\averagerating\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\components\\averageratingviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\components\\averageratingviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\_reviewform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\_reviewform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\displaytemplates\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\displaytemplates\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "create-product.css",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\create-product.css",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\create-product.css",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\create-product.css",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\create-product.css",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAFEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-24T21:02:07.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CRUDController.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\CRUDController.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Controllers\\CRUDController.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\CRUDController.cs",
+              "RelativeToolTip": "P50-4-22\\Controllers\\CRUDController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T20:59:54.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Create.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\CRUD\\Create.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Create.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\CRUD\\Create.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T20:59:12.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Delete.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\CRUD\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Delete.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\CRUD\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T20:59:11.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T20:58:59.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:32:54.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Profile.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Profile\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Profile.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Profile\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T19:38:26.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T19:31:20.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "register.css",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\register.css",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\register.css",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\register.css",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\register.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-24T20:15:03.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Registr.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T20:14:01.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDEAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:32:54.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Profile.css",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\Profile.css",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\Profile.css",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\Profile.css",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\Profile.css",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-24T19:44:48.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Cart.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\User\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Cart.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\User\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T19:38:24.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "footer.css",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\footer.css",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\footer.css",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\footer.css",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\footer.css",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-24T19:26:14.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "header.css",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\header.css",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\header.css",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\header.css",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\header.css",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-24T18:02:16.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PetStoreRpmContext.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\PetStoreRpmContext.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Models\\PetStoreRpmContext.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\PetStoreRpmContext.cs",
+              "RelativeToolTip": "P50-4-22\\Models\\PetStoreRpmContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:32:54.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\UserController.cs",
+              "RelativeToolTip": "P50-4-22\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwGUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:32:54.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Catalog.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Catalog.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\User\\Catalog.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Catalog.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\User\\Catalog.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:32:54.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:32:54.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\User\\Details.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\User\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:32:54.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "P50-4-22\\Controllers\\ProfileController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:32:54.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\Components\\AverageRating\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:32:54.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Program.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Program.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Program.cs",
+              "RelativeToolTip": "P50-4-22\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:32:54.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ReviewForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_ReviewForm.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\_ReviewForm.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_ReviewForm.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\_ReviewForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:32:54.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-24T17:32:54.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AverageRatingViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Components\\AverageRatingViewComponent.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\Components\\AverageRatingViewComponent.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Components\\AverageRatingViewComponent.cs",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\Components\\AverageRatingViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:32:54.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\User.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\User.cs",
+              "RelativeToolTip": "P50-4-22\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:32:54.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\DisplayTemplates\\Review.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:32:54.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "P50-4-22\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:32:54.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Details.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\CRUD\\Details.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Details.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\CRUD\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:32:54.368Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

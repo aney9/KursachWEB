@@ -1,0 +1,22 @@
+﻿@model IEnumerable<P50_4_22.Models.CatalogProduct>
+
+@{
+	ViewBag.Title = "Панель администратора";
+}
+
+<a asp-action="Create" asp-controller="CRUD">Добавить товар</a>
+<table class="table">
+	@foreach(var item in Model)
+	{
+		<tr>
+			<td class="text">
+				@item.ProductName
+			</td>
+			<td>
+				<a asp-action="Details" asp-controller="CRUD" asp-route-id="@item.IdCatalogproducts">Подробнее</a>
+				<a asp-action="Edit" asp-controller="CRUD" asp-route-id="@item.IdCatalogproducts">Изменить</a>
+				<a asp-action="Delete" asp-controller="CRUD" asp-route-id="@item.IdCatalogproducts">Удалить</a>
+			</td>
+		</tr>
+	}
+</table>

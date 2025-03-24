@@ -1,0 +1,79 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html, body {
+    height: 100%; /* Растягиваем html и body на всю высоту окна */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #21201F;
+    flex: 1; /* Растягиваем body на всё доступное пространство */
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #474747;
+    padding: 10px;
+}
+
+main {
+    flex: 1; /* Основной контент занимает всё доступное пространство */
+    padding-bottom: 20px; /* Отступ снизу, чтобы контент не прилипал к футеру */
+}
+
+footer {
+    background-color: #474747;
+    padding: 20px;
+    width: 100%;
+    text-align: left; /* Текст выровнен по левому краю */
+    margin-top: auto; /* Прижимаем футер к низу */
+}
+
+nav {
+    background: #474747;
+    padding: 20px;
+}
+
+navbar {
+    background: #474747;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.text {
+    color: white;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}

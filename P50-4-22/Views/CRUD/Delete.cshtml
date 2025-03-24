@@ -1,0 +1,46 @@
+﻿@model P50_4_22.Models.CatalogProduct
+@{
+	ViewBag.Title = "Удаление продукта";
+}
+
+<div class="text">
+	<dl class="dl-horizontal">
+		<dt>Название продукта</dt>
+		<dd>
+			@Html.DisplayFor(model => model.ProductName)
+		</dd>
+
+		<dt>Цена продукта</dt>
+		<dd>
+			@Html.DisplayFor(model => model.PriceOfProduct)
+		</dd>
+
+		<dt>Описание продукта</dt>
+		<dd>
+			@Html.DisplayFor(model => model.DescriptionProduct)
+		</dd>
+
+		<dt>Картинка</dt>
+		<dd>
+			@Html.DisplayFor(model => model.Img)
+		</dd>
+
+		<dt>Индентификатор бренда</dt>
+		<dd>
+			@Html.DisplayFor(model => model.BrandsId)
+		</dd>
+
+		<dt>Индентификатор категории</dt>
+		<dd>
+			@Html.DisplayFor(model => model.CategoriesId)
+		</dd>
+
+		<div>
+			<form asp-controller="CRUD" asp-action="Delete" method="post">
+				<div class="form-group">
+					<input type="submit" value="Удалить" class="btn" />
+				</div>
+			</form>
+		</div>
+	</dl>
+</div>

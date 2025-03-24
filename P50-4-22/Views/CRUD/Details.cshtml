@@ -1,0 +1,23 @@
+﻿@model P50_4_22.Models.CatalogProduct
+@{
+	ViewBag.Title = Model.ProductName;
+}
+<h2 class="text">@Model.ProductName</h2>
+<div>
+	<dl class="dl-horizontal">
+		<dt class="text">Цена</dt>
+		<dd class="text">@Model.PriceOfProduct</dd>
+
+		<dt class="text">Описание продукта</dt>
+		<dd class="text">@Model.DescriptionProduct</dd>
+
+		<dt class="text">Изображение продукта</dt>
+		<dd class="text">@Model.Img</dd>
+
+		<dt class="text">Индентификатор бренда</dt>
+		<dd class="text">@Model.BrandsId</dd>
+
+		<dt class="text">Индентификатор категории</dt>
+		<dd class="text">@Model.CategoriesId</dd>
+	</dl>
+</div>
