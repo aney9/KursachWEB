@@ -1,0 +1,44 @@
+﻿@model P50_4_22.Models.CatalogProduct
+@{
+	ViewData["Title"] = "Edit";
+}
+
+<h1 class="text">Изменить</h>
+<h4 class="text">продукт</h4>
+<hr />
+
+<form asp-action="Edit">
+	
+	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+	<input type="hidden" asp-for="IdCatalogproducts" />
+
+    <div class="form-group">
+        <label asp-for="ProductName" class="text control-label">Название продукта</label>
+        <input type="text" asp-for="ProductName" class="" />
+    </div>
+    <div class="form-group">
+        <label asp-for="PriceOfProduct" class="text control-label">Цена продукта</label>
+        <input type="number" asp-for="PriceOfProduct" class="" />
+    </div>
+    <div class="form-group">
+        <label asp-for="DescriptionProduct" class="text control-label">Описание прдукта</label>
+        <input type="text" asp-for="DescriptionProduct" class="" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Img" class="text control-label">картинка</label>
+        <input type="text" asp-for="Img" class="" />
+    </div>
+    <div class="form-group">
+        <label asp-for="BrandsId" class="text control-label">ID бренда</label>
+        <input type="number" asp-for="BrandsId" class="" />
+    </div>
+    <div class="form-group">
+        <label asp-for="CategoriesId" class="text control-label">ID категории</label>
+        <input type="number" asp-for="CategoriesId" class="" />
+    </div>
+
+    <div class="from-group">
+        <input type="submit" value="Сохранить" class="btn" />
+    </div>
+
+</form>

@@ -1,0 +1,55 @@
+﻿@model P50_4_22.Models.CatalogProduct
+
+@{
+    ViewData["Title"] = "Создание продукта";
+}
+
+<div class="login-container">
+    <div class="login-form">
+        <h2>Добавить новый продукт</h2>
+        <form asp-action="create" asp-controller="CRUD" method="post" class="form-content">
+            <div class="form-group">
+                <label asp-for="ProductName" class="form-label">Название продукта</label>
+                <input asp-for="ProductName" class="form-input" required placeholder="Введите название продукта" />
+                <span asp-validation-for="ProductName" class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PriceOfProduct" class="form-label">Цена продукта</label>
+                <input asp-for="PriceOfProduct" type="number" class="form-input" required placeholder="Введите цену" />
+                <span asp-validation-for="PriceOfProduct" class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DescriptionProduct" class="form-label">Описание продукта</label>
+                <input asp-for="DescriptionProduct" class="form-input" required placeholder="Введите описание" />
+                <span asp-validation-for="DescriptionProduct" class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Img" class="form-label">URL картинки</label>
+                <input asp-for="Img" class="form-input" required placeholder="Введите URL изображения" />
+                <span asp-validation-for="Img" class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="BrandsId" class="form-label">ID бренда</label>
+                <input asp-for="BrandsId" type="number" class="form-input" required placeholder="Введите ID бренда" />
+                <span asp-validation-for="BrandsId" class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="CategoriesId" class="form-label">ID категории</label>
+                <input asp-for="CategoriesId" type="number" class="form-input" required placeholder="Введите ID категории" />
+                <span asp-validation-for="CategoriesId" class="error-message"></span>
+            </div>
+
+            <button type="submit" class="login-button">Отправить</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/create-product.css" />
+    <partial name="_ValidationScriptsPartial" />
+}

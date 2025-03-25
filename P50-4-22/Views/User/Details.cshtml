@@ -1,0 +1,20 @@
+﻿@model P50_4_22.Models.CatalogProduct
+
+<h2 class="text">@Model.ProductName</h2>
+<p class="text">@Model.DescriptionProduct</p>
+<img src="~/lib/Images/@Model.Img" alt="Товар" style="width: 200px;">
+<p class="text">Цена: @Model.PriceOfProduct</p>
+
+
+@await Component.InvokeAsync("AverageRating", new { CatalogroductId = Model.IdCatalogproducts })
+
+
+@await Html.PartialAsync("_ReviewForm", new P50_4_22.Models.Review { CatalogroductId = Model.IdCatalogproducts })
+
+<h3 class="text">Отзывы</h3>
+
+@Html.DisplayFor(model => model.Reviews)
+
+@{
+    ViewData["ProductId"] = Model.IdCatalogproducts;
+}

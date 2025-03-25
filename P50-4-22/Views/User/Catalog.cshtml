@@ -1,0 +1,99 @@
+﻿@model IEnumerable<P50_4_22.Models.CatalogProduct>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <h3 class="text">Бренды</h3>
+            <div class="col-md-6">
+                <select id="sortSelect" class="form-select" onchange="sortProducts()">
+                    <option value="priceAsc">Цена (по возрастанию)</option>
+                    <option value="priceDesc">Цена (по убыванию)</option>
+                </select>
+            </div>
+            <div class="brand-filter">
+                @foreach (var i in Model)
+                {
+                    @if (i.Brands != null && !string.IsNullOrEmpty(i.Brands.Brand1))
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input brand-checkbox" type="checkbox" value="@i.Brands.Brand1" onchange="filterProducts()" />
+                            <label class="form-check-label text">@i.Brands.Brand1</label>
+                        </div>
+                    }
+                }
+            </div>
+            <button class="btn btn-secondary mt-3" onclick="clearFilters()">Очистить фильтры</button>
+        </div>
+
+        <div class="col-md-9">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" id="searchInput" placeholder="Поиск по товарам" class="form-control" onkeyup="filterProducts()" />
+                </div>
+            </div>
+
+            <div id="productList">
+                @foreach (var i in Model)
+                {
+                    <div class="row product-card" data-name="@i.ProductName" data-price="@i.PriceOfProduct" data-brand="@i.Brands.Brand1">
+                        <div class="col-md-6">
+                            <div class="product-card-content" style="display: flex; align-items: center;">
+                                <img src="~/lib/Images/@i.Img" alt="Товар" style="width: 200px;">
+                                <div style="margin-left: 20px;">
+                                    <a asp-controller="User" asp-action="Details" asp-route-id="@i.IdCatalogproducts">
+                                        <h3 class="text product-name">@i.ProductName</h3>
+                                    </a>
+                                    <p class="text">@i.DescriptionProduct</p>
+                                    <p class="text product-price">@i.PriceOfProduct</p>
+
+                                    @await Component.InvokeAsync("AverageRating", new { CatalogroductId = i.IdCatalogproducts })
+
+                                    <form asp-action="AddToCart" method="post">
+                                        @Html.AntiForgeryToken()
+                                        <input type="hidden" name="catalogId" value="@i.IdCatalogproducts" />
+                                        <input type="number" name="quantity" value="1" min="1" max="@i.Quantity" />
+                                        <button type="submit">Добавить в корзину</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function clearFilters() {
+        document.getElementById('searchInput').value = '';
+        document.getElementById('sortSelect').value = 'priceAsc';
+        document.querySelectorAll('.brand-checkbox').forEach(cb => cb.checked = false);
+        filterProducts();
+    }
+    function filterProducts() {
+        const searchInput = document.getElementById('searchInput').value.toLowerCase();
+        const selectedBrands = Array.from(document.querySelectorAll('.brand-checkbox:checked')).map(cb => cb.value);
+        const products = document.querySelectorAll('.product-card');
+        products.forEach(product => {
+            const name = product.getAttribute('data-name').toLowerCase();
+            const brand = product.getAttribute('data-brand');
+            const matchesSearch = name.includes(searchInput);
+            const matchesBrand = selectedBrands.length === 0 || selectedBrands.includes(brand);
+            product.style.display = (matchesSearch && matchesBrand) ? '' : 'none';
+        });
+        sortProducts();
+    }
+    function sortProducts() {
+        const sortValue = document.getElementById('sortSelect').value;
+        const productList = document.getElementById('productList');
+        const products = Array.from(productList.children);
+        products.sort((a, b) => {
+            const priceA = parseFloat(a.getAttribute('data-price'));
+            const priceB = parseFloat(b.getAttribute('data-price'));
+            return sortValue === 'priceAsc' ? priceA - priceB : priceB - priceA;
+        });
+        productList.innerHTML = '';
+        products.forEach(product => productList.appendChild(product));
+    }
+</script>

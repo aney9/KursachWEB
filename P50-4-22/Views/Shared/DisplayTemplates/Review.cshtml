@@ -1,0 +1,7 @@
+﻿@model P50_4_22.Models.Review
+<div class="review, text">
+    <strong>@Model.Users?.Loginvhod</strong>
+    <div class="stars">@string.Concat(Enumerable.Repeat("⭐", Model.Rating))</div>
+    <p>@Model.ReviewText</p>
+    <small>@Model.CreatedAt.ToShortDateString()</small>
+</div>
