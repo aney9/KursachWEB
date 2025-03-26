@@ -37,18 +37,24 @@ public partial class PetStoreRpmContext : DbContext
     {
         modelBuilder.Entity<Brand>(entity =>
         {
-            entity.HasKey(e => e.IdBrands).HasName("PK__Brands__147C88F574C09EF3");
+            entity.HasKey(e => e.IdBrands).HasName("PK__Brands__147C88F5A77FE3C8");
+
+            entity.HasIndex(e => e.Brand1, "UQ__Brands__BAB741D72D52AC85").IsUnique();
 
             entity.Property(e => e.IdBrands).HasColumnName("ID_brands");
             entity.Property(e => e.Brand1)
                 .HasMaxLength(25)
                 .IsUnicode(false)
                 .HasColumnName("Brand");
+            entity.Property(e => e.ImgBrand)
+                .HasMaxLength(260)
+                .IsUnicode(false)
+                .HasColumnName("Img_brand");
         });
 
         modelBuilder.Entity<Cart>(entity =>
         {
-            entity.HasKey(e => e.IdCart).HasName("PK__Cart__70179490A855964B");
+            entity.HasKey(e => e.IdCart).HasName("PK__Cart__70179490F24A2244");
 
             entity.ToTable("Cart");
 
@@ -62,12 +68,12 @@ public partial class PetStoreRpmContext : DbContext
             entity.HasOne(d => d.Catalog).WithMany(p => p.Carts)
                 .HasForeignKey(d => d.CatalogId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Cart__CatalogID__59063A47");
+                .HasConstraintName("FK__Cart__CatalogID__5AEE82B9");
         });
 
         modelBuilder.Entity<CatalogProduct>(entity =>
         {
-            entity.HasKey(e => e.IdCatalogproducts).HasName("PK__CatalogP__7D82B6FA310DDAC3");
+            entity.HasKey(e => e.IdCatalogproducts).HasName("PK__CatalogP__7D82B6FA3F9975E9");
 
             entity.Property(e => e.IdCatalogproducts).HasColumnName("ID_catalogproducts");
             entity.Property(e => e.BrandsId).HasColumnName("brands_ID");
@@ -87,17 +93,19 @@ public partial class PetStoreRpmContext : DbContext
             entity.HasOne(d => d.Brands).WithMany(p => p.CatalogProducts)
                 .HasForeignKey(d => d.BrandsId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CatalogPr__brand__5535A963");
+                .HasConstraintName("FK__CatalogPr__brand__571DF1D5");
 
             entity.HasOne(d => d.Categories).WithMany(p => p.CatalogProducts)
                 .HasForeignKey(d => d.CategoriesId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CatalogPr__categ__5629CD9C");
+                .HasConstraintName("FK__CatalogPr__categ__5812160E");
         });
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.IdCategories).HasName("PK__Categori__487EC275E7258AEB");
+            entity.HasKey(e => e.IdCategories).HasName("PK__Categori__487EC275FCAD9D43");
+
+            entity.HasIndex(e => e.Categories, "UQ__Categori__05299DB933505BD1").IsUnique();
 
             entity.Property(e => e.IdCategories).HasColumnName("ID_categories");
             entity.Property(e => e.Categories)
@@ -107,7 +115,7 @@ public partial class PetStoreRpmContext : DbContext
 
         modelBuilder.Entity<Review>(entity =>
         {
-            entity.HasKey(e => e.IdReview).HasName("PK__Review__4D295FF8E3707656");
+            entity.HasKey(e => e.IdReview).HasName("PK__Review__4D295FF8DC2B3C93");
 
             entity.ToTable("Review");
 
@@ -124,17 +132,17 @@ public partial class PetStoreRpmContext : DbContext
             entity.HasOne(d => d.Catalogroduct).WithMany(p => p.Reviews)
                 .HasForeignKey(d => d.CatalogroductId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Review__Catalogr__5CD6CB2B");
+                .HasConstraintName("FK__Review__Catalogr__5EBF139D");
 
             entity.HasOne(d => d.Users).WithMany(p => p.Reviews)
                 .HasForeignKey(d => d.UsersId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Review__Users_ID__5DCAEF64");
+                .HasConstraintName("FK__Review__Users_ID__5FB337D6");
         });
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.IdRole).HasName("PK__Roles__45DFFBDB12A99830");
+            entity.HasKey(e => e.IdRole).HasName("PK__Roles__45DFFBDB3AEDCA4A");
 
             entity.Property(e => e.IdRole).HasColumnName("ID_role");
             entity.Property(e => e.Rolee)
@@ -144,13 +152,13 @@ public partial class PetStoreRpmContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.IdUsers).HasName("PK__Users__18069104A07A86BC");
+            entity.HasKey(e => e.IdUsers).HasName("PK__Users__180691041F497349");
 
-            entity.HasIndex(e => e.PhoneNumber, "UQ__Users__85FB4E38AAE5D38D").IsUnique();
+            entity.HasIndex(e => e.PhoneNumber, "UQ__Users__85FB4E38359C9710").IsUnique();
 
-            entity.HasIndex(e => e.Loginvhod, "UQ__Users__89F837A0CC64B43A").IsUnique();
+            entity.HasIndex(e => e.Loginvhod, "UQ__Users__89F837A0345A5F65").IsUnique();
 
-            entity.HasIndex(e => e.Email, "UQ__Users__A9D10534EF7ADC3C").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Users__A9D105344376E42C").IsUnique();
 
             entity.Property(e => e.IdUsers).HasColumnName("ID_users");
             entity.Property(e => e.ClientName)

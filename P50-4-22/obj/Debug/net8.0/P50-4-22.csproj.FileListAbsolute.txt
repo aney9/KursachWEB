@@ -1029,6 +1029,7 @@ C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debu
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.RazorAssemblyInfo.cache
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.RazorAssemblyInfo.cs
+C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.sourcelink.json
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\scopedcss\bundle\P50-4-22.styles.css
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\scopedcss\projectbundle\P50-4-22.bundle.scp.css
@@ -1048,4 +1049,3 @@ C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debu
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.pdb
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.genruntimeconfig.cache
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\ref\P50-4-22.dll
-C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\obj\Debug\net8.0\P50-4-22.sourcelink.json

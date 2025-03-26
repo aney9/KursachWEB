@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using P50_4_22.Models;
 using System.Security.Claims;
@@ -21,42 +22,73 @@ namespace P50_4_22.Controllers
 		[HttpGet]
 		public IActionResult Profile()
 		{
-			return View();
-		}
+            if (User.Identity.IsAuthenticated)
+            {
+                // Если пользователь уже авторизован, перенаправляем на страницу профиля
+                return RedirectToAction("UserProfile");
+            }
+
+            // Если пользователь не авторизован, показываем страницу логина
+            return View();
+        }
 
 		[HttpPost]
 		public async Task<IActionResult> Profile(string Email, string Loginpassword)
 		{
-			string hashedPassword = HashPassword(Loginpassword);
-			var user = db.Users.FirstOrDefault(u => u.Email == Email && u.Loginpassword == hashedPassword);
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("UserProfile");
+            }
 
-			if (user != null)
-			{
-				var claims = new List<Claim>
-				{
-					new Claim(ClaimTypes.Name, user.ClientName),
-					new Claim(ClaimTypes.Email, user.Email),
-					new Claim(ClaimTypes.NameIdentifier, user.IdUsers.ToString()),
-					new Claim(ClaimTypes.Role, user.RolesId == 2 ? "пользователь" : "админ")
-				};
+            string hashedPassword = HashPassword(Loginpassword);
+            var user = db.Users.FirstOrDefault(u => u.Email == Email && u.Loginpassword == hashedPassword);
 
-				var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            if (user != null)
+            {
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, user.ClientName),
+                    new Claim(ClaimTypes.Email, user.Email),
+                    new Claim(ClaimTypes.NameIdentifier, user.IdUsers.ToString()),
+                    new Claim(ClaimTypes.Role, user.RolesId == 2 ? "пользователь" : "админ")
+                };
 
-				var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
 
-				await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, claimsPrincipal);
 
-				return RedirectToAction("Catalog", "User");
-			}
-			ViewBag.ErrorMessage = "Неверные учетные данные";
-			return View();
-		}
+                return RedirectToAction("UserProfile");
+            }
+
+            ViewBag.ErrorMessage = "Неверные учетные данные";
+            return View();
+        }
 
 		[HttpGet]
 		public IActionResult Registr()
 		{
 			return View();
 		}
+
+		[HttpGet]
+		[Authorize]
+		public IActionResult UserProfile()
+		{
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+            {
+                return RedirectToAction("Profile");
+            }
+
+            var user = db.Users.FirstOrDefault(u => u.IdUsers == int.Parse(userId));
+            if (user == null)
+            {
+                return RedirectToAction("Profile");
+            }
+
+            return View(user);
+        }
 
 		[HttpPost]
 		public async Task<IActionResult> Registr(string Loginvhod, string Loginpassword, string PhoneNumber, string Email, string ClientName)

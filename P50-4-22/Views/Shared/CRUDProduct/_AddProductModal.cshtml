@@ -1,0 +1,51 @@
+﻿<div id="addProductModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeAddProductModal()">×</span>
+        <h3>Добавить новый продукт</h3>
+        <form asp-action="Create" asp-controller="CRUD" method="post" class="form-content">
+            <div class="form-group">
+                <label for="ProductName" class="form-label">Название продукта</label>
+                <input id="ProductName" name="ProductName" class="form-input" required placeholder="Введите название продукта" />
+            </div>
+
+            <div class="form-group">
+                <label for="PriceOfProduct" class="form-label">Цена продукта</label>
+                <input id="PriceOfProduct" name="PriceOfProduct" type="number" class="form-input" required placeholder="Введите цену" />
+            </div>
+
+            <div class="form-group">
+                <label for="DescriptionProduct" class="form-label">Описание продукта</label>
+                <input id="DescriptionProduct" name="DescriptionProduct" class="form-input" required placeholder="Введите описание" />
+            </div>
+
+            <div class="form-group">
+                <label for="Img" class="form-label">URL картинки</label>
+                <input id="Img" name="Img" class="form-input" required placeholder="Введите URL изображения" />
+            </div>
+
+            <div class="form-group">
+                <label for="BrandsId" class="form-label">Бренд</label>
+                <select id="BrandsId" name="BrandsId" class="form-input" required>
+                    <option value="">Выберите бренд</option>
+                    @foreach (var brand in ViewBag.Brands)
+                    {
+                        <option value="@brand.Value">@brand.Text</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="CategoriesId" class="form-label">Категория</label>
+                <select id="CategoriesId" name="CategoriesId" class="form-input" required>
+                    <option value="">Выберите категорию</option>
+                    @foreach (var category in ViewBag.Categories)
+                    {
+                        <option value="@category.Value">@category.Text</option>
+                    }
+                </select>
+            </div>
+
+            <button type="submit" class="login-button">Отправить</button>
+        </form>
+    </div>
+</div>

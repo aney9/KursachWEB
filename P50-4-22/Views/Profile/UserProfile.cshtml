@@ -1,0 +1,39 @@
+﻿@model P50_4_22.Models.User
+
+@{
+    ViewBag.Title = "Профиль пользователя";
+}
+
+<div class="profile-container">
+    <h2 class="profile-title">Профиль пользователя</h2>
+
+    <div class="user-info card">
+        <div class="info-item">
+            <label class="info-label">Имя:</label>
+            <span class="info-value">@Model.ClientName</span>
+        </div>
+
+        <div class="info-item">
+            <label class="info-label">Email:</label>
+            <span class="info-value">@Model.Email</span>
+        </div>
+
+        <div class="info-item">
+            <label class="info-label">Телефон:</label>
+            <span class="info-value">@Model.PhoneNumber</span>
+        </div>
+
+        <div class="info-item">
+            <label class="info-label">Логин:</label>
+            <span class="info-value">@Model.Loginvhod</span>
+        </div>
+    </div>
+
+    <div class="profile-actions">
+        <a asp-action="UserProfile" asp-controller="Profile" class="btn btn-logout">Выйти</a>
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/user-profile.css" />
+}

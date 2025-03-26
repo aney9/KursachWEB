@@ -5,7 +5,6 @@
 }
 
 <div class="admin-container">
-    <!-- Таблица продуктов -->
     <div class="table-section">
         <h2>Продукты</h2>
         <table class="admin-table">
@@ -16,12 +15,16 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model.Item1) // CatalogProduct
+                <tr>
+                    <td colspan="2">
+                        <button class="action-button create" onclick="showAddProductModal()">Добавить продукт</button>
+                    </td>
+                </tr>
+                @foreach (var item in Model.Item1)
                 {
                     <tr>
                         <td>@item.ProductName</td>
                         <td class="actions">
-                            <a asp-action="Create" asp-controller="CRUDController" class="action-link create">Добавить</a>
                             <a asp-action="Details" asp-controller="CRUDController" asp-route-id="@item.IdCatalogproducts" class="action-link details">Подробнее</a>
                             <a asp-action="Edit" asp-controller="CRUDController" asp-route-id="@item.IdCatalogproducts" class="action-link edit">Изменить</a>
                             <a asp-action="Delete" asp-controller="CRUDController" asp-route-id="@item.IdCatalogproducts" class="action-link delete">Удалить</a>
@@ -30,25 +33,29 @@
                 }
             </tbody>
         </table>
+        @await Html.PartialAsync("~/Views/Shared/CRUDProduct/_AddProductModal.cshtml")
     </div>
 
-    <!-- Таблица категорий -->
     <div class="table-section">
-        <h2>Категории</h2>
+        <h2>Бренды</h2>
         <table class="admin-table">
             <thead>
                 <tr>
-                    <th>Название категории</th>
+                    <th>Название бренда</th>
                     <th>Действия</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model.Item2) // Categories
+                <tr>
+                    <td colspan="2">
+                        <button class="action-button create" onclick="showAddBrandModal()">Добавить бренд</button>
+                    </td>
+                </tr>
+                @foreach (var item in Model.Item2)
                 {
                     <tr>
                         <td>@item.Brand1</td>
                         <td class="actions">
-                            <a asp-action="Create" asp-controller="CRUDController" class="action-link create">Добавить</a>
                             <a asp-action="Details" asp-controller="CRUDController" asp-route-id="@item.IdBrands" class="action-link details">Подробнее</a>
                             <a asp-action="Edit" asp-controller="CRUDController" asp-route-id="@item.IdBrands" class="action-link edit">Изменить</a>
                             <a asp-action="Delete" asp-controller="CRUDController" asp-route-id="@item.IdBrands" class="action-link delete">Удалить</a>
@@ -57,9 +64,12 @@
                 }
             </tbody>
         </table>
+        @await Html.PartialAsync("~/Views/Shared/CRUDBrand/_AddBrandModal.cshtml")
     </div>
 </div>
 
 @section Scripts {
     <link rel="stylesheet" href="~/css/admin-panel.css" />
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/admin-modal.js"></script>
 }

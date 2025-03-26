@@ -33,8 +33,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\user-profile.css",
+      "PackagePath": "staticwebassets\\css\\user-profile.css"
+    },
+    {
       "Id": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\admin-modal.js",
+      "PackagePath": "staticwebassets\\js\\admin-modal.js"
     },
     {
       "Id": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\site.js",
@@ -51,6 +59,10 @@
     {
       "Id": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\lib\\Images\\logo.jpg",
       "PackagePath": "staticwebassets\\lib\\Images\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\lib\\Images\\whiskas.jpg",
+      "PackagePath": "staticwebassets\\lib\\Images\\whiskas.jpg"
     },
     {
       "Id": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\lib\\Images\\корм.png",

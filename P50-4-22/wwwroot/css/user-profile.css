@@ -1,0 +1,93 @@
+﻿/* user-profile.css */
+
+/* Основной контейнер */
+.profile-container {
+    width: 100%; /* Занимает всю ширину страницы */
+    min-height: calc(100vh - 120px); /* От хедера до футера (120px — предполагаемая высота хедера и футера) */
+    background: #21201F; /* Тёмный фон, как в .admin-container */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем содержимое по горизонтали */
+    padding-top: 60px; /* Отступ сверху, как в .admin-container */
+    padding-bottom: 60px; /* Отступ снизу, как в .admin-container */
+    font-family: Arial, sans-serif;
+}
+
+/* Заголовок */
+.profile-title {
+    font-size: 28px;
+    color: #FFFFFF; /* Белый цвет текста, как в h2 */
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #B85F00; /* Оранжевая линия, как в .table-section */
+    padding-bottom: 10px;
+    width: 80%; /* Соответствует ширине карточки */
+}
+
+/* Карточка с информацией */
+.user-info.card {
+    background: #3D3D3D; /* Цвет фона карточки, как в .table-section */
+    border: 1px solid #B85F00; /* Оранжевая граница */
+    border-radius: 5px; /* Скругление углов, как в .modal-content */
+    box-shadow: 0 0 20px #B85F00; /* Тень, как в .table-section */
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%; /* Соответствует ширине .table-section */
+    max-width: 800px; /* Ограничиваем максимальную ширину для читаемости */
+}
+
+/* Элемент информации */
+.info-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    border-bottom: 1px solid #B85F00; /* Оранжевая линия, как в .admin-table */
+}
+
+    .info-item:last-child {
+        border-bottom: none;
+    }
+
+/* Метка */
+.info-label {
+    width: 120px;
+    font-weight: 500; /* Как в .admin-table th */
+    color: #FFC100; /* Жёлтый цвет, как в .admin-table th */
+    font-size: 16px;
+}
+
+/* Значение */
+.info-value {
+    flex: 1;
+    color: #FFFFFF; /* Белый цвет текста, как в .admin-table */
+    font-size: 16px;
+}
+
+/* Действия */
+.profile-actions {
+    text-align: center;
+    margin-top: 20px;
+    width: 80%; /* Соответствует ширине карточки */
+}
+
+/* Кнопка выхода */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Плавный переход, как в .action-link */
+}
+
+.btn-logout {
+    background: #21201F; /* Тёмный фон, как в .action-link.delete */
+    color: #dc3545; /* Красный цвет текста, как в .action-link.delete */
+    border: 1px solid #dc3545; /* Красная граница */
+}
+
+    .btn-logout:hover {
+        background: #dc3545; /* Красный фон при наведении */
+        color: #FFFFFF; /* Белый текст при наведении */
+    }

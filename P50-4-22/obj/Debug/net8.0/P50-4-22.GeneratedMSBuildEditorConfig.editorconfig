@@ -32,10 +32,6 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxBZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/CRUD/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/CRUD/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,8 +56,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxSZWdpc3RyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Profile/UserProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxVc2VyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/Components/AverageRating/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXZlcmFnZVJhdGluZ1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/CRUDBrand/_AddBrandModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENSVURCcmFuZFxfQWRkQnJhbmRNb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/CRUDProduct/_AddProductModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENSVURQcm9kdWN0XF9BZGRQcm9kdWN0TW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/DisplayTemplates/Review.cshtml]

@@ -9,5 +9,7 @@ public partial class Brand
 
     public string Brand1 { get; set; } = null!;
 
+    public string ImgBrand { get; set; } = null!;
+
     public virtual ICollection<CatalogProduct> CatalogProducts { get; set; } = new List<CatalogProduct>();
 }

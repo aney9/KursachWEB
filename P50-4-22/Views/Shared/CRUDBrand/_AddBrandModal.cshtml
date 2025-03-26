@@ -1,0 +1,28 @@
+﻿<!-- _AddBrandModal.cshtml -->
+<div id="addBrandModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeAddBrandModal()">×</span>
+        <h3>Добавить новый бренд</h3>
+        <form asp-action="CreateBrand" asp-controller="CRUD" method="post" class="form-content">
+            <div class="form-group">
+                <label for="Brand1" class="form-label">Название бренда</label>
+                <input id="Brand1" name="Brand1" class="form-input" required placeholder="Введите название бренда" />
+                @if (ViewData.ModelState.ContainsKey("Brand1") && ViewData.ModelState["Brand1"].Errors.Any())
+                {
+                    <span class="text-danger">@ViewData.ModelState["Brand1"].Errors.First().ErrorMessage</span>
+                }
+            </div>
+
+            <div class="form-group">
+                <label for="ImgBrand" class="form-label">URL изображения бренда</label>
+                <input id="ImgBrand" name="ImgBrand" class="form-input" required placeholder="Введите URL изображения" />
+                @if (ViewData.ModelState.ContainsKey("ImgBrand") && ViewData.ModelState["ImgBrand"].Errors.Any())
+                {
+                    <span class="text-danger">@ViewData.ModelState["ImgBrand"].Errors.First().ErrorMessage</span>
+                }
+            </div>
+
+            <button type="submit" class="login-button">Отправить</button>
+        </form>
+    </div>
+</div>

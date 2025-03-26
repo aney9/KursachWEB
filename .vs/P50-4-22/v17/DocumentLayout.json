@@ -7,12 +7,36 @@
       "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\admin-panel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\admin-panel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\crudbrand\\_addbrandmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\crudbrand\\_addbrandmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\profile\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\profile\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\crudproduct\\_addproductmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\crudproduct\\_addproductmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\crud\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\crud\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\js\\admin-modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\js\\admin-modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,16 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,36 +56,122 @@
               "RelativeDocumentMoniker": "P50-4-22\\Controllers\\CRUDController.cs",
               "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\CRUDController.cs",
               "RelativeToolTip": "P50-4-22\\Controllers\\CRUDController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwFcAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:12:58.07Z",
+              "WhenOpened": "2025-03-26T19:33:54.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "admin-panel.css",
-              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
-              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\admin-panel.css",
-              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
-              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\admin-panel.css",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAwGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-24T22:12:38.493Z",
+              "Title": "_AddBrandModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\CRUDBrand\\_AddBrandModal.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\CRUDBrand\\_AddBrandModal.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\CRUDBrand\\_AddBrandModal.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\CRUDBrand\\_AddBrandModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T19:51:18.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "P50-4-22\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwFYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:28:43.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Registr.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T21:33:17.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Program.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Program.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Program.cs",
+              "RelativeToolTip": "P50-4-22\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T21:28:11.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T21:27:58.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "admin-modal.js",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\admin-modal.js",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\js\\admin-modal.js",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\admin-modal.js",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\js\\admin-modal.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-26T19:51:35.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AddProduct.cshtml",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
               "RelativeDocumentMoniker": "P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
               "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
               "RelativeToolTip": "P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwEoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-24T22:02:15.52Z",
+              "WhenOpened": "2025-03-26T19:49:56.806Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AddProductModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\CRUDProduct\\_AddProductModal.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\CRUDProduct\\_AddProductModal.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\CRUDProduct\\_AddProductModal.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\CRUDProduct\\_AddProductModal.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwB0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T19:49:23.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

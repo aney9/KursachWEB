@@ -5,7 +5,9 @@ wwwroot\css\header.css
 wwwroot\css\Profile.css
 wwwroot\css\register.css
 wwwroot\css\site.css
+wwwroot\css\user-profile.css
 wwwroot\favicon.ico
+wwwroot\js\admin-modal.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -55,6 +57,7 @@ wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\Images\korm2.jfif
 wwwroot\lib\Images\logo.ico
 wwwroot\lib\Images\logo.jpg
+wwwroot\lib\Images\whiskas.jpg
 wwwroot\lib\Images\корм.png
 wwwroot\lib\Images\котик.png
 wwwroot\lib\Images\педигри.png

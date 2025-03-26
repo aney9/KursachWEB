@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N9Oki3GCE+TiZkPbuZ/LbnIfdWqB3xahCoMud5zN1xg=",
+  "Hash": "MuUiMGUk43eeEpUOuLoNHDdLn9gtBNlz6tToa5qYOzU=",
   "Source": "P50-4-22",
   "BasePath": "_content/P50-4-22",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ss4zunzych",
-      "Integrity": "DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo=",
+      "Fingerprint": "ashc6k7xlq",
+      "Integrity": "9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\admin-panel.css"
@@ -248,6 +248,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\user-profile.css",
+      "SourceId": "P50-4-22",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\",
+      "BasePath": "_content/P50-4-22",
+      "RelativePath": "css/user-profile#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqedbi8rmk",
+      "Integrity": "1D7Se6W+uUsaWk/sOXciFje9Bq7tpC/k6wq1oB2Vlh0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\user-profile.css"
+    },
+    {
       "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\favicon.ico",
       "SourceId": "P50-4-22",
       "SourceType": "Discovered",
@@ -267,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\admin-modal.js",
+      "SourceId": "P50-4-22",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\",
+      "BasePath": "_content/P50-4-22",
+      "RelativePath": "js/admin-modal#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aq7il1qor6",
+      "Integrity": "onCSNTnAvCti6v9CXOMR9Dv5gX0ZYBqTeRitYxSKAgk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\admin-modal.js"
     },
     {
       "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\site.js",
@@ -1298,6 +1340,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\Images\\logo.jpg"
     },
     {
+      "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\lib\\Images\\whiskas.jpg",
+      "SourceId": "P50-4-22",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\",
+      "BasePath": "_content/P50-4-22",
+      "RelativePath": "lib/Images/whiskas#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0glywgy2fb",
+      "Integrity": "EKEu//aW4WQxsgZjFndz+ZXobUtmPIUxcvEAI+BItw8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Images\\whiskas.jpg"
+    },
+    {
       "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\lib\\Images\\корм.png",
       "SourceId": "P50-4-22",
       "SourceType": "Discovered",
@@ -1689,6 +1752,51 @@
       ]
     },
     {
+      "Route": "css/admin-panel.ashc6k7xlq.css",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4269"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 11:57:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ashc6k7xlq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-panel.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4="
+        }
+      ]
+    },
+    {
       "Route": "css/admin-panel.css",
       "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
       "Selectors": [],
@@ -1699,7 +1807,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2115"
+          "Value": "4269"
         },
         {
           "Name": "Content-Type",
@@ -1707,11 +1815,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo=\""
+          "Value": "\"9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 22:13:38 GMT"
+          "Value": "Wed, 26 Mar 2025 11:57:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1721,52 +1829,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo="
-        }
-      ]
-    },
-    {
-      "Route": "css/admin-panel.ss4zunzych.css",
-      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2115"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 22:13:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ss4zunzych"
-        },
-        {
-          "Name": "label",
-          "Value": "css/admin-panel.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DE0yM7p0nNgBQItVwndKMbtqO4yCiQRbwrL2gY14cvo="
+          "Value": "sha256-9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4="
         }
       ]
     },
@@ -2263,6 +2326,88 @@
       ]
     },
     {
+      "Route": "css/user-profile.cqedbi8rmk.css",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\user-profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1D7Se6W+uUsaWk/sOXciFje9Bq7tpC/k6wq1oB2Vlh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 21:38:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqedbi8rmk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/user-profile.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1D7Se6W+uUsaWk/sOXciFje9Bq7tpC/k6wq1oB2Vlh0="
+        }
+      ]
+    },
+    {
+      "Route": "css/user-profile.css",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\user-profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1D7Se6W+uUsaWk/sOXciFje9Bq7tpC/k6wq1oB2Vlh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 21:38:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1D7Se6W+uUsaWk/sOXciFje9Bq7tpC/k6wq1oB2Vlh0="
+        }
+      ]
+    },
+    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\favicon.ico",
       "Selectors": [],
@@ -2341,6 +2486,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-modal.aq7il1qor6.js",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\admin-modal.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onCSNTnAvCti6v9CXOMR9Dv5gX0ZYBqTeRitYxSKAgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 19:57:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aq7il1qor6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin-modal.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-onCSNTnAvCti6v9CXOMR9Dv5gX0ZYBqTeRitYxSKAgk="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-modal.js",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\admin-modal.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"onCSNTnAvCti6v9CXOMR9Dv5gX0ZYBqTeRitYxSKAgk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 19:57:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-onCSNTnAvCti6v9CXOMR9Dv5gX0ZYBqTeRitYxSKAgk="
         }
       ]
     },
@@ -6363,6 +6590,88 @@
       ]
     },
     {
+      "Route": "lib/Images/whiskas.0glywgy2fb.jpg",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\lib\\Images\\whiskas.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EKEu//aW4WQxsgZjFndz+ZXobUtmPIUxcvEAI+BItw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:35:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0glywgy2fb"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/Images/whiskas.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EKEu//aW4WQxsgZjFndz+ZXobUtmPIUxcvEAI+BItw8="
+        }
+      ]
+    },
+    {
+      "Route": "lib/Images/whiskas.jpg",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\lib\\Images\\whiskas.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EKEu//aW4WQxsgZjFndz+ZXobUtmPIUxcvEAI+BItw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:35:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EKEu//aW4WQxsgZjFndz+ZXobUtmPIUxcvEAI+BItw8="
+        }
+      ]
+    },
+    {
       "Route": "lib/Images/корм.png",
       "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\lib\\Images\\корм.png",
       "Selectors": [],
@@ -7615,7 +7924,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 19:29:06 GMT"
+          "Value": "Wed, 26 Mar 2025 21:28:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7652,7 +7961,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 19:29:06 GMT"
+          "Value": "Wed, 26 Mar 2025 21:28:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7701,7 +8010,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 19:29:06 GMT"
+          "Value": "Wed, 26 Mar 2025 21:28:23 GMT"
         },
         {
           "Name": "Link",
@@ -7742,7 +8051,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 19:29:06 GMT"
+          "Value": "Wed, 26 Mar 2025 21:28:23 GMT"
         },
         {
           "Name": "Link",
