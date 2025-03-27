@@ -17,109 +17,111 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = P50_4_22
 build_property.RootNamespace = P50_4_22
-build_property.ProjectDir = C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\
+build_property.ProjectDir = C:\Users\Тимофей\source\repos\KursachWEB\P50-4-22\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22
+build_property.MSBuildProjectDirectory = C:\Users\Тимофей\source\repos\KursachWEB\P50-4-22
 build_property._RazorSourceGeneratorDebug = 
-build_property.EffectiveAnalysisLevelStyle = 8.0
-build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/CRUD/AddProduct.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/CRUD/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxBZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/CRUD/Delete.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/CRUD/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/CRUD/Details.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/CRUD/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/CRUD/Edit.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/CRUD/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Home/Index.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Profile/Profile.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Profile/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Profile/Registr.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Profile/Registr.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxSZWdpc3RyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Profile/UserProfile.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Profile/UserProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxVc2VyUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/Components/AverageRating/Default.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/Components/AverageRating/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXZlcmFnZVJhdGluZ1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/CRUDBrand/_AddBrandModal.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/CRUDBrand/_AddBrandModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENSVURCcmFuZFxfQWRkQnJhbmRNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/CRUDProduct/_AddProductModal.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/CRUDCategories/_AddCategoriesModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENSVURDYXRlZ29yaWVzXF9BZGRDYXRlZ29yaWVzTW9kYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/CRUDProduct/_AddProductModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENSVURQcm9kdWN0XF9BZGRQcm9kdWN0TW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/DisplayTemplates/Review.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/DisplayTemplates/Review.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXERpc3BsYXlUZW1wbGF0ZXNcUmV2aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/Error.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/_Footer.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/_Header.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/_ReviewForm.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/_ReviewForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXZpZXdGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/User/Cart.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/User/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/User/Catalog.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/User/Catalog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDYXRhbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/User/Details.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/User/Map.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/User/Map.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNYXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/_ViewImports.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/_ViewStart.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timof/OneDrive/Desktop/МПТ/курсач/asp-master/P50-4-22/Views/Shared/_Layout.cshtml]
+[C:/Users/Тимофей/source/repos/KursachWEB/P50-4-22/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-96fbx8sun0

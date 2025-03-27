@@ -1,0 +1,19 @@
+﻿
+<div id="addCategoryModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeAddCategoryModal()">×</span>
+        <h3>Добавить новую категорию</h3>
+        <form asp-action="CreateCategory" asp-controller="CRUD" method="post" class="form-content">
+            <div class="form-group">
+                <label for="Categories" class="form-label">Название категории</label>
+                <input id="Categories" name="Categories" class="form-input" required placeholder="Введите название категории" />
+                @if (ViewData.ModelState.ContainsKey("Categories") && ViewData.ModelState["Categories"].Errors.Any())
+                {
+                    <span class="text-danger">@ViewData.ModelState["Categories"].Errors.First().ErrorMessage</span>
+                }
+            </div>
+
+            <button type="submit" class="login-button">Отправить</button>
+        </form>
+    </div>
+</div>
