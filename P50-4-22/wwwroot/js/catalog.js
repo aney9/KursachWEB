@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.brand-checkbox').forEach(checkbox => {
         checkbox.addEventListener('change', filterProducts);
     });
+    document.querySelectorAll('.category-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', filterProducts);
+    });
     document.querySelector('.clear-filters-btn').addEventListener('click', clearFilters);
 
     // Инициализация избранных товаров
@@ -20,21 +23,25 @@ function clearFilters() {
     document.getElementById('searchInput').value = '';
     document.getElementById('sortSelect').value = 'priceAsc';
     document.querySelectorAll('.brand-checkbox').forEach(cb => cb.checked = false);
+    document.querySelectorAll('.category-checkbox').forEach(cb => cb.checked = false);
     filterProducts();
 }
 
 function filterProducts() {
     const searchInput = document.getElementById('searchInput').value.toLowerCase();
     const selectedBrands = Array.from(document.querySelectorAll('.brand-checkbox:checked')).map(cb => cb.value);
+    const selectedCategories = Array.from(document.querySelectorAll('.category-checkbox:checked')).map(cb => cb.value);
     const products = document.querySelectorAll('.product-card');
 
     products.forEach(product => {
         const name = product.getAttribute('data-name').toLowerCase();
         const brand = product.getAttribute('data-brand') || '';
+        const category = product.getAttribute('data-category') || '';
         const matchesSearch = name.includes(searchInput);
         const matchesBrand = selectedBrands.length === 0 || selectedBrands.includes(brand);
+        const matchesCategory = selectedCategories.length === 0 || selectedCategories.includes(category);
 
-        if (matchesSearch && matchesBrand) {
+        if (matchesSearch && matchesBrand && matchesCategory) {
             product.style.display = 'block';
             product.classList.add('fade-in');
         } else {

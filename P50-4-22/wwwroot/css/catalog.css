@@ -61,6 +61,28 @@
         box-shadow: 0 0 5px rgba(255, 193, 0, 0.5);
     }
 
+/* Фильтр по категориям */
+.category-item {
+    margin-bottom: 0.75rem;
+}
+
+.category-checkbox {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.category-label {
+    color: #FFFFFF;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+    .category-label:hover {
+        color: #FFC100;
+    }
+
+/* Фильтр по брендам */
 .brand-item {
     margin-bottom: 0.75rem;
 }
@@ -258,8 +280,58 @@
     margin-bottom: 1rem;
 }
 
-.product-rating {
+/* Стили для рейтинга */
+.average-rating {
     margin-bottom: 1rem;
+}
+
+.rating-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+    .rating-link:hover {
+        transform: translateX(5px);
+    }
+
+.rating-stars {
+    display: flex;
+    gap: 0.2rem;
+}
+
+    .rating-stars i {
+        font-size: 1.2rem;
+        color: #FFC100; /* Жёлтый цвет для звёзд */
+        transition: color 0.3s ease;
+    }
+
+.rating-link:hover .rating-stars i {
+    color: #B85F00; /* Оранжевый при наведении */
+}
+
+.rating-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.rating-value {
+    color: #FFC100;
+    font-weight: 600;
+}
+
+.review-count {
+    color: #87CEEB;
+    font-style: italic;
+    transition: color 0.3s ease;
+}
+
+.rating-link:hover .review-count {
+    color: #B85F00;
 }
 
 .add-to-cart-form {
@@ -314,3 +386,23 @@
         transform: translateY(0);
     }
 }
+/* Фильтр по категориям */
+.category-item {
+    margin-bottom: 0.75rem;
+}
+
+.category-checkbox {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.category-label {
+    color: #FFFFFF;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+    .category-label:hover {
+        color: #FFC100;
+    }

@@ -1,7 +1,21 @@
 ﻿@model P50_4_22.Models.Review
-<div class="review, text">
-    <strong>@Model.Users?.Loginvhod</strong>
-    <div class="stars">@string.Concat(Enumerable.Repeat("⭐", Model.Rating))</div>
-    <p>@Model.ReviewText</p>
-    <small>@Model.CreatedAt.ToShortDateString()</small>
-</div>
+
+<form asp-action="AddReview" method="post" class="needs-validation" novalidate>
+    <input type="hidden" asp-for="CatalogroductId" />
+    <div class="mb-3">
+        <label for="rating" class="form-label">Оценка</label>
+        <select asp-for="Rating" class="form-select" required>
+            <option value="">Выберите оценку</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label for="reviewText" class="form-label">Ваш отзыв</label>
+        <textarea asp-for="ReviewText" class="form-control" rows="4" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-custom w-100">Отправить</button>
+</form>

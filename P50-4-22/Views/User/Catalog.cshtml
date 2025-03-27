@@ -1,61 +1,119 @@
 ﻿@model IEnumerable<P50_4_22.Models.CatalogProduct>
 
-<div class="container-fluid">
+<div class="catalog-container">
     <div class="row">
+        <!-- Фильтры (категории, бренды и сортировка) -->
         <div class="col-md-3">
-            <h3 class="text">Бренды</h3>
-            <div class="col-md-6">
-                <select id="sortSelect" class="form-select" onchange="sortProducts()">
-                    <option value="priceAsc">Цена (по возрастанию)</option>
-                    <option value="priceDesc">Цена (по убыванию)</option>
-                </select>
-            </div>
-            <div class="brand-filter">
-                @foreach (var i in Model)
-                {
-                    @if (i.Brands != null && !string.IsNullOrEmpty(i.Brands.Brand1))
+            <div class="filter-section">
+                <h3 class="filter-title">Фильтры</h3>
+
+                <!-- Сортировка -->
+                <div class="sort-section">
+                    <label for="sortSelect" class="sort-label">Сортировка</label>
+                    <select id="sortSelect" class="sort-select">
+                        <option value="priceAsc">Цена (по возрастанию)</option>
+                        <option value="priceDesc">Цена (по убыванию)</option>
+                    </select>
+                </div>
+
+                <!-- Фильтр по категориям -->
+                <h5 class="filter-subtitle">Категории</h5>
+                <div class="category-filter">
+                    @{
+                        // Используем HashSet для уникальных категорий
+                        var uniqueCategories = Model
+                        .Where(i => i.Categories != null && !string.IsNullOrEmpty(i.Categories.Categories))
+                        .Select(i => i.Categories.Categories)
+                        .Distinct()
+                        .ToList();
+                    }
+                    @foreach (var category in uniqueCategories)
                     {
-                        <div class="form-check">
-                            <input class="form-check-input brand-checkbox" type="checkbox" value="@i.Brands.Brand1" onchange="filterProducts()" />
-                            <label class="form-check-label text">@i.Brands.Brand1</label>
+                        // Генерируем безопасный id, заменяя пробелы и специальные символы
+                        var safeCategoryId = $"category-{category.Replace(" ", "-").Replace("&", "and")}";
+                        <div class="category-item">
+                            <input class="category-checkbox" type="checkbox" value="@category" id="@safeCategoryId" />
+                            <label class="category-label" for="@safeCategoryId">@category</label>
                         </div>
                     }
-                }
+                </div>
+
+                <!-- Фильтр по брендам -->
+                <h5 class="filter-subtitle">Бренды</h5>
+                <div class="brand-filter">
+                    @{
+                        // Используем HashSet для уникальных брендов
+                        var uniqueBrands = Model
+                        .Where(i => i.Brands != null && !string.IsNullOrEmpty(i.Brands.Brand1))
+                        .Select(i => i.Brands.Brand1)
+                        .Distinct()
+                        .ToList();
+                    }
+                    @foreach (var brand in uniqueBrands)
+                    {
+                        // Генерируем безопасный id для брендов
+                        var safeBrandId = $"brand-{brand.Replace(" ", "-").Replace("&", "and")}";
+                        <div class="brand-item">
+                            <input class="brand-checkbox" type="checkbox" value="@brand" id="@safeBrandId" />
+                            <label class="brand-label" for="@safeBrandId">@brand</label>
+                        </div>
+                    }
+                </div>
+
+                <!-- Кнопка очистки фильтров -->
+                <button class="clear-filters-btn">Очистить фильтры</button>
             </div>
-            <button class="btn btn-secondary mt-3" onclick="clearFilters()">Очистить фильтры</button>
         </div>
 
+        <!-- Список товаров -->
         <div class="col-md-9">
-            <div class="row mb-3">
-                <div class="col-md-6">
-                    <input type="text" id="searchInput" placeholder="Поиск по товарам" class="form-control" onkeyup="filterProducts()" />
+            <!-- Поиск -->
+            <div class="search-section">
+                <div class="search-wrapper">
+                    <span class="search-icon">
+                        <i class="bi bi-search"></i>
+                    </span>
+                    <input type="text" id="searchInput" placeholder="Поиск по товарам..." class="search-input" />
                 </div>
             </div>
 
-            <div id="productList">
+            <!-- Список товаров -->
+            <div id="productList" class="product-grid">
                 @foreach (var i in Model)
                 {
-                    <div class="row product-card" data-name="@i.ProductName" data-price="@i.PriceOfProduct" data-brand="@i.Brands.Brand1">
-                        <div class="col-md-6">
-                            <div class="product-card-content" style="display: flex; align-items: center;">
-                                <img src="~/lib/Images/@i.Img" alt="Товар" style="width: 200px;">
-                                <div style="margin-left: 20px;">
-                                    <a asp-controller="User" asp-action="Details" asp-route-id="@i.IdCatalogproducts">
-                                        <h3 class="text product-name">@i.ProductName</h3>
-                                    </a>
-                                    <p class="text">@i.DescriptionProduct</p>
-                                    <p class="text product-price">@i.PriceOfProduct</p>
+                    <div class="product-card"
+                         data-name="@i.ProductName"
+                         data-price="@i.PriceOfProduct"
+                         data-brand="@i.Brands?.Brand1"
+                         data-category="@i.Categories?.Categories"
+                         data-id="@i.IdCatalogproducts">
+                        <div class="product-image-wrapper">
+                            <img src="~/lib/Images/@i.Img" class="product-image" alt="@i.ProductName">
+                            <!-- Кнопка "Добавить в избранное" -->
+                            <button class="favorite-btn" onclick="toggleFavorite(@i.IdCatalogproducts)">
+                                <i class="bi bi-heart"></i>
+                                <i class="bi bi-heart-fill d-none"></i>
+                            </button>
+                        </div>
+                        <div class="product-content">
+                            <a asp-controller="User" asp-action="Details" asp-route-id="@i.IdCatalogproducts" class="product-title">
+                                <h5>@i.ProductName</h5>
+                            </a>
+                            <p class="product-description">@i.DescriptionProduct</p>
+                            <p class="product-price">@i.PriceOfProduct ₽</p>
 
-                                    @await Component.InvokeAsync("AverageRating", new { CatalogroductId = i.IdCatalogproducts })
-
-                                    <form asp-action="AddToCart" method="post">
-                                        @Html.AntiForgeryToken()
-                                        <input type="hidden" name="catalogId" value="@i.IdCatalogproducts" />
-                                        <input type="number" name="quantity" value="1" min="1" max="@i.Quantity" />
-                                        <button type="submit">Добавить в корзину</button>
-                                    </form>
-                                </div>
+                            <!-- Средний рейтинг -->
+                            <div class="product-rating">
+                                @await Component.InvokeAsync("AverageRating", new { CatalogroductId = i.IdCatalogproducts })
                             </div>
+
+                            <!-- Форма добавления в корзину -->
+                            <form asp-action="AddToCart" method="post" class="add-to-cart-form">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="catalogId" value="@i.IdCatalogproducts" />
+                                <input type="number" name="quantity" value="1" min="1" max="@i.Quantity" class="quantity-input" />
+                                <button type="submit" class="add-to-cart-btn">В корзину</button>
+                            </form>
                         </div>
                     </div>
                 }
@@ -64,36 +122,12 @@
     </div>
 </div>
 
-<script>
-    function clearFilters() {
-        document.getElementById('searchInput').value = '';
-        document.getElementById('sortSelect').value = 'priceAsc';
-        document.querySelectorAll('.brand-checkbox').forEach(cb => cb.checked = false);
-        filterProducts();
-    }
-    function filterProducts() {
-        const searchInput = document.getElementById('searchInput').value.toLowerCase();
-        const selectedBrands = Array.from(document.querySelectorAll('.brand-checkbox:checked')).map(cb => cb.value);
-        const products = document.querySelectorAll('.product-card');
-        products.forEach(product => {
-            const name = product.getAttribute('data-name').toLowerCase();
-            const brand = product.getAttribute('data-brand');
-            const matchesSearch = name.includes(searchInput);
-            const matchesBrand = selectedBrands.length === 0 || selectedBrands.includes(brand);
-            product.style.display = (matchesSearch && matchesBrand) ? '' : 'none';
-        });
-        sortProducts();
-    }
-    function sortProducts() {
-        const sortValue = document.getElementById('sortSelect').value;
-        const productList = document.getElementById('productList');
-        const products = Array.from(productList.children);
-        products.sort((a, b) => {
-            const priceA = parseFloat(a.getAttribute('data-price'));
-            const priceB = parseFloat(b.getAttribute('data-price'));
-            return sortValue === 'priceAsc' ? priceA - priceB : priceB - priceA;
-        });
-        productList.innerHTML = '';
-        products.forEach(product => productList.appendChild(product));
-    }
-</script>
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/admin-panel.css" />
+    <link rel="stylesheet" href="~/css/catalog.css" />
+}
+
+@section Scripts {
+    <script src="~/js/catalog.js"></script>
+}

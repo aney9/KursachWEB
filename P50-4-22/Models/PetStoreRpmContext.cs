@@ -31,15 +31,15 @@ public partial class PetStoreRpmContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-J680NP2\\SQLEXPRESS;Initial Catalog=PetStoreRPM;Integrated Security=True;Trust Server Certificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-EJI2V8K\\SQLEXPRESS;Initial Catalog=PetStoreRPM;Integrated Security=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Brand>(entity =>
         {
-            entity.HasKey(e => e.IdBrands).HasName("PK__Brands__147C88F5A77FE3C8");
+            entity.HasKey(e => e.IdBrands).HasName("PK__Brands__147C88F55D664F6E");
 
-            entity.HasIndex(e => e.Brand1, "UQ__Brands__BAB741D72D52AC85").IsUnique();
+            entity.HasIndex(e => e.Brand1, "UQ__Brands__BAB741D772A0663C").IsUnique();
 
             entity.Property(e => e.IdBrands).HasColumnName("ID_brands");
             entity.Property(e => e.Brand1)
@@ -54,7 +54,7 @@ public partial class PetStoreRpmContext : DbContext
 
         modelBuilder.Entity<Cart>(entity =>
         {
-            entity.HasKey(e => e.IdCart).HasName("PK__Cart__70179490F24A2244");
+            entity.HasKey(e => e.IdCart).HasName("PK__Cart__7017949033F36508");
 
             entity.ToTable("Cart");
 
@@ -73,7 +73,7 @@ public partial class PetStoreRpmContext : DbContext
 
         modelBuilder.Entity<CatalogProduct>(entity =>
         {
-            entity.HasKey(e => e.IdCatalogproducts).HasName("PK__CatalogP__7D82B6FA3F9975E9");
+            entity.HasKey(e => e.IdCatalogproducts).HasName("PK__CatalogP__7D82B6FAF5AA210A");
 
             entity.Property(e => e.IdCatalogproducts).HasColumnName("ID_catalogproducts");
             entity.Property(e => e.BrandsId).HasColumnName("brands_ID");
@@ -103,9 +103,9 @@ public partial class PetStoreRpmContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.IdCategories).HasName("PK__Categori__487EC275FCAD9D43");
+            entity.HasKey(e => e.IdCategories).HasName("PK__Categori__487EC275B73D944F");
 
-            entity.HasIndex(e => e.Categories, "UQ__Categori__05299DB933505BD1").IsUnique();
+            entity.HasIndex(e => e.Categories, "UQ__Categori__05299DB9D0E0E844").IsUnique();
 
             entity.Property(e => e.IdCategories).HasColumnName("ID_categories");
             entity.Property(e => e.Categories)
@@ -115,7 +115,7 @@ public partial class PetStoreRpmContext : DbContext
 
         modelBuilder.Entity<Review>(entity =>
         {
-            entity.HasKey(e => e.IdReview).HasName("PK__Review__4D295FF8DC2B3C93");
+            entity.HasKey(e => e.IdReview).HasName("PK__Review__4D295FF84A80D302");
 
             entity.ToTable("Review");
 
@@ -142,7 +142,7 @@ public partial class PetStoreRpmContext : DbContext
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.IdRole).HasName("PK__Roles__45DFFBDB3AEDCA4A");
+            entity.HasKey(e => e.IdRole).HasName("PK__Roles__45DFFBDB84CB73AC");
 
             entity.Property(e => e.IdRole).HasColumnName("ID_role");
             entity.Property(e => e.Rolee)
@@ -152,13 +152,13 @@ public partial class PetStoreRpmContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.IdUsers).HasName("PK__Users__180691041F497349");
+            entity.HasKey(e => e.IdUsers).HasName("PK__Users__18069104CBC666B4");
 
-            entity.HasIndex(e => e.PhoneNumber, "UQ__Users__85FB4E38359C9710").IsUnique();
+            entity.HasIndex(e => e.PhoneNumber, "UQ__Users__85FB4E3840B2334A").IsUnique();
 
-            entity.HasIndex(e => e.Loginvhod, "UQ__Users__89F837A0345A5F65").IsUnique();
+            entity.HasIndex(e => e.Loginvhod, "UQ__Users__89F837A07C4EE144").IsUnique();
 
-            entity.HasIndex(e => e.Email, "UQ__Users__A9D105344376E42C").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Users__A9D105340A0BD0CB").IsUnique();
 
             entity.Property(e => e.IdUsers).HasColumnName("ID_users");
             entity.Property(e => e.ClientName)

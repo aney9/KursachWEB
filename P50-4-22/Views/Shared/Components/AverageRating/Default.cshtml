@@ -1,4 +1,38 @@
-﻿@model double
-<div class="average-rating, text">
-    Средний рейтинг: @Model.ToString("0.0") ⭐
+﻿@model dynamic
+
+<div class="average-rating">
+    <a href="@Url.Action("Details", "User", new { id = ViewContext.RouteData.Values["id"] })" class="rating-link">
+        <div class="rating-stars">
+            @{
+                double avgRating = Model.avgRating;
+                int reviewCount = Model.reviewCount;
+
+                int fullStars = (int)Math.Floor(avgRating); // Полные звёзды
+                bool hasHalfStar = avgRating - fullStars >= 0.5; // Есть ли полузвезда
+                int emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0); // Пустые звёзды
+
+                // Отображаем полные звёзды
+                for (int i = 0; i < fullStars; i++)
+                {
+                    <i class="bi bi-star-fill"></i>
+                }
+
+                // Отображаем полузвезду, если есть
+                if (hasHalfStar)
+                {
+                    <i class="bi bi-star-half"></i>
+                }
+
+                // Отображаем пустые звёзды
+                for (int i = 0; i < emptyStars; i++)
+                {
+                    <i class="bi bi-star"></i>
+                }
+            }
+        </div>
+        <div class="rating-info">
+            <span class="rating-value">@Model.avgRating.ToString("0.0")</span>
+            <span class="review-count">(@Model.reviewCount отзывов)</span>
+        </div>
+    </a>
 </div>

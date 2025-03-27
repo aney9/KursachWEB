@@ -15,10 +15,21 @@ namespace P50_4_22.Views.Shared.Components
 
         public async Task<IViewComponentResult> InvokeAsync(int CatalogroductId)
         {
-            var avgRating = await _context.Reviews
+            // Выполняем один запрос для получения среднего рейтинга и количества отзывов
+            var reviewStats = await _context.Reviews
                 .Where(r => r.CatalogroductId == CatalogroductId)
-                .AverageAsync(r => (double?)r.Rating) ?? 0;
-            return View(avgRating);
+                .GroupBy(r => r.CatalogroductId)
+                .Select(g => new
+                {
+                    avgRating = g.Average(r => (double?)r.Rating) ?? 0,
+                    reviewCount = g.Count()
+                })
+                .FirstOrDefaultAsync();
+
+            // Если отзывов нет, возвращаем значения по умолчанию
+            var model = reviewStats ?? new { avgRating = 0.0, reviewCount = 0 };
+
+            return View(model);
         }
     }
 }
