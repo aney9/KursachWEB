@@ -1,0 +1,43 @@
+﻿<div id="registerModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeRegisterModal()">×</span>
+        <h2>Регистрация</h2>
+        <form asp-action="Registr" asp-controller="Profile" method="post" class="form-content">
+            <div class="form-group">
+                <label for="Loginvhod" class="form-label">Логин</label>
+                <input type="text" name="Loginvhod" id="Loginvhod" class="form-input" required placeholder="Введите логин" />
+            </div>
+
+            <div class="form-group">
+                <label for="Loginpassword" class="form-label">Пароль</label>
+                <input type="password" name="Loginpassword" id="Loginpassword" class="form-input" required placeholder="Введите пароль" />
+            </div>
+
+            <div class="form-group">
+                <label for="PhoneNumber" class="form-label">Телефон</label>
+                <input type="text" name="PhoneNumber" id="PhoneNumber" class="form-input" required placeholder="Введите номер телефона" />
+            </div>
+
+            <div class="form-group">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" name="Email" id="Email" class="form-input" required placeholder="Введите email" />
+            </div>
+
+            <div class="form-group">
+                <label for="ClientName" class="form-label">Имя</label>
+                <input type="text" name="ClientName" id="ClientName" class="form-input" required placeholder="Введите имя" />
+            </div>
+
+            <button type="submit" class="login-button">Зарегистрироваться</button>
+
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <span class="error-message">@ViewBag.ErrorMessage</span>
+            }
+
+            <div class="register-link">
+                <a href="#" class="link" onclick="showLoginModal()">Уже есть аккаунт? Авторизоваться</a>
+            </div>
+        </form>
+    </div>
+</div>

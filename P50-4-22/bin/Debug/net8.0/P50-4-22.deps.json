@@ -9,7 +9,7 @@
       "P50-4-22/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": "8.0.8",
-          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.6"
@@ -664,17 +664,6 @@
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Components.Web.dll": {
             "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.824.36908"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.8": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.10"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
-            "assemblyVersion": "8.0.8.0",
             "fileVersion": "8.0.824.36908"
           }
         }
@@ -1844,14 +1833,7 @@
           }
         }
       },
-      "System.Formats.Asn1/8.0.1": {
-        "runtime": {
-          "lib/net8.0/System.Formats.Asn1.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
-        }
-      },
+      "System.Formats.Asn1/8.0.1": {},
       "System.IdentityModel.Tokens.Jwt/6.35.0": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "6.35.0",
@@ -2432,13 +2414,6 @@
       "sha512": "sha512-PX6JYvx2A5R1cQNLiTMMcm+7zvloVCGxvuRf24Ezaj1aUvZDYnSfyNkD2gyVun7AizGAn+x3QYr4mBfbZ9L5TA==",
       "path": "microsoft.aspnetcore.components.web/8.0.8",
       "hashPath": "microsoft.aspnetcore.components.web.8.0.8.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-y/2e8g+A2kRiyuHK+KWO8AgKZL6+heKM/Y2ijP4HVMP3QJFWK9xakXucMqC8A4hvL1U9JTEjOuZoa+c7Tr/XYA==",
-      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/8.0.8",
-      "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/8.0.8": {
       "type": "package",

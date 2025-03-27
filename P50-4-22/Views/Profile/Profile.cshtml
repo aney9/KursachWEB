@@ -4,34 +4,33 @@
     ViewData["Title"] = "Профиль";
 }
 
-<div class="login-container">
-    <div class="login-form">
-        <h2>Вход в систему</h2>
-        <form method="post" class="form-content">
-            <div class="form-group">
-                <label for="Email" class="form-label">Email</label>
-                <input type="email" name="Email" id="Email" class="form-input" required placeholder="Введите email" />
-            </div>
-
-            <div class="form-group">
-                <label for="Loginpassword" class="form-label">Пароль</label>
-                <input type="password" name="Loginpassword" id="Loginpassword" class="form-input" required placeholder="Введите пароль" />
-            </div>
-
-            <button type="submit" class="login-button">Войти</button>
-
-            @if (ViewBag.ErrorMessage != null)
-            {
-                <span class="error-message">@ViewBag.ErrorMessage</span>
-            }
-
-            <div class="register-link">
-                <a asp-action="Registr" class="link">Нет аккаунта? Регистрация</a>
-            </div>
-        </form>
+<div class="auth-container">
+    <div class="auth-buttons">
+        <button class="action-button login" onclick="showLoginModal()">Войти</button>
+        <button class="action-button register" onclick="showRegisterModal()">Регистрация</button>
     </div>
+
+    <!-- Модальное окно для авторизации -->
+    @await Html.PartialAsync("~/Views/Shared/Auth/_LoginModal.cshtml")
+
+    <!-- Модальное окно для регистрации -->
+    @await Html.PartialAsync("~/Views/Shared/Auth/_RegisterModal.cshtml")
+
+    <!-- Модальное окно для восстановления пароля (ввод email) -->
+    @await Html.PartialAsync("~/Views/Shared/Auth/_ForgotPasswordModal.cshtml")
+
+    <!-- Модальное окно для ввода кода -->
+    @await Html.PartialAsync("~/Views/Shared/Auth/_VerifyCodeModal.cshtml")
+
+    <!-- Модальное окно для смены пароля -->
+    @await Html.PartialAsync("~/Views/Shared/Auth/_ResetPasswordModal.cshtml")
 </div>
 
+@section Styles {
+    <link rel="stylesheet" href="~/css/auth.css" />
+}
+
 @section Scripts {
-    <link rel="stylesheet" href="~/css/Profile.css" />
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/auth-modal.js"></script>
 }

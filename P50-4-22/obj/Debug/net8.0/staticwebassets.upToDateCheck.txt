@@ -1,4 +1,6 @@
 wwwroot\css\admin-panel.css
+wwwroot\css\auth.css
+wwwroot\css\catalog.css
 wwwroot\css\create-product.css
 wwwroot\css\footer.css
 wwwroot\css\header.css
@@ -8,6 +10,8 @@ wwwroot\css\site.css
 wwwroot\css\user-profile.css
 wwwroot\favicon.ico
 wwwroot\js\admin-modal.js
+wwwroot\js\auth-modal.js
+wwwroot\js\catalog.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

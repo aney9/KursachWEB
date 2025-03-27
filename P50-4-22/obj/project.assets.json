@@ -757,25 +757,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.8"
-        },
-        "compile": {
-          "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
       "Microsoft.AspNetCore.Metadata/8.0.8": {
         "type": "package",
         "compile": {
@@ -3809,21 +3790,6 @@
         "lib/net8.0/Microsoft.AspNetCore.Components.Web.xml",
         "microsoft.aspnetcore.components.web.8.0.8.nupkg.sha512",
         "microsoft.aspnetcore.components.web.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.8": {
-      "sha512": "y/2e8g+A2kRiyuHK+KWO8AgKZL6+heKM/Y2ijP4HVMP3QJFWK9xakXucMqC8A4hvL1U9JTEjOuZoa+c7Tr/XYA==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/8.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
-        "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
-        "microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.8.nupkg.sha512",
-        "microsoft.aspnetcore.diagnostics.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Metadata/8.0.8": {
@@ -8038,26 +8004,31 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter >= 8.0.8",
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.8",
+      "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.6"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Тимофей\\.nuget\\packages\\": {}
+    "C:\\Users\\timof\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Тимофей\\Source\\Repos\\KursachWEB\\P50-4-22\\P50-4-22.csproj",
+      "projectUniqueName": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\P50-4-22.csproj",
       "projectName": "P50-4-22",
-      "projectPath": "C:\\Users\\Тимофей\\Source\\Repos\\KursachWEB\\P50-4-22\\P50-4-22.csproj",
-      "packagesPath": "C:\\Users\\Тимофей\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Тимофей\\Source\\Repos\\KursachWEB\\P50-4-22\\obj\\",
+      "projectPath": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\P50-4-22.csproj",
+      "packagesPath": "C:\\Users\\timof\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Тимофей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\timof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8077,7 +8048,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -8087,9 +8064,9 @@
             "target": "Package",
             "version": "[8.0.8, )"
           },
-          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[8.0.8, )"
+            "version": "[8.0.10, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -8125,7 +8102,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

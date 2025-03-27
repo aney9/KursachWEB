@@ -11,6 +11,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<P50_4_22.Models.PetStoreRpmContext>(option => 
 option.UseSqlServer(builder.Configuration.GetConnectionString("Connection")));
+builder.Services.AddMemoryCache();
 
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

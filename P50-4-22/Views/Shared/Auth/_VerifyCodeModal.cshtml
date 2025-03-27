@@ -1,0 +1,17 @@
+﻿<div id="verifyCodeModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeVerifyCodeModal()">×</span>
+        <h2>Введите код</h2>
+        <form id="verifyCodeForm" onsubmit="verifyResetCode(event)" class="form-content">
+            <div class="form-group">
+                <label for="ResetCode" class="form-label">Код из письма</label>
+                <input type="text" name="ResetCode" id="ResetCode" class="form-input" required placeholder="Введите 4-значный код" maxlength="4" />
+                <input type="hidden" name="Email" id="VerifyEmail" />
+            </div>
+
+            <button type="submit" class="login-button">Подтвердить</button>
+
+            <span id="verifyCodeError" class="error-message"></span>
+        </form>
+    </div>
+</div>

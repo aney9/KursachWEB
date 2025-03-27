@@ -795,7 +795,6 @@ C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\bin\Debu
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
-C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\timof\OneDrive\Desktop\МПТ\курсач\asp-master\P50-4-22\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll

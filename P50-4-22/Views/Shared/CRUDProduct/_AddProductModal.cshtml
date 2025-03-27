@@ -1,4 +1,5 @@
-﻿<div id="addProductModal" class="modal">
+﻿<!-- _AddProductModal.cshtml -->
+<div id="addProductModal" class="modal">
     <div class="modal-content">
         <span class="close" onclick="closeAddProductModal()">×</span>
         <h3>Добавить новый продукт</h3>
@@ -10,7 +11,7 @@
 
             <div class="form-group">
                 <label for="PriceOfProduct" class="form-label">Цена продукта</label>
-                <input id="PriceOfProduct" name="PriceOfProduct" type="number" class="form-input" required placeholder="Введите цену" />
+                <input id="PriceOfProduct" name="PriceOfProduct" type="number" step="0.01" class="form-input" required placeholder="Введите цену" />
             </div>
 
             <div class="form-group">
@@ -24,10 +25,15 @@
             </div>
 
             <div class="form-group">
+                <label for="Quantity" class="form-label">Количество</label>
+                <input id="Quantity" name="Quantity" type="number" min="0" class="form-input" required placeholder="Введите количество" />
+            </div>
+
+            <div class="form-group">
                 <label for="BrandsId" class="form-label">Бренд</label>
                 <select id="BrandsId" name="BrandsId" class="form-input" required>
                     <option value="">Выберите бренд</option>
-                    @foreach (var brand in ViewBag.Brands)
+                    @foreach (var brand in ViewBag.Brands as SelectList)
                     {
                         <option value="@brand.Value">@brand.Text</option>
                     }
@@ -38,7 +44,7 @@
                 <label for="CategoriesId" class="form-label">Категория</label>
                 <select id="CategoriesId" name="CategoriesId" class="form-input" required>
                     <option value="">Выберите категорию</option>
-                    @foreach (var category in ViewBag.Categories)
+                    @foreach (var category in ViewBag.Categories as SelectList)
                     {
                         <option value="@category.Value">@category.Text</option>
                     }

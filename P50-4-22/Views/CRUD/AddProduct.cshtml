@@ -1,10 +1,11 @@
-﻿@model Tuple<IEnumerable<P50_4_22.Models.CatalogProduct>, IEnumerable<P50_4_22.Models.Brand>>
+﻿@model Tuple<IEnumerable<P50_4_22.Models.CatalogProduct>, IEnumerable<P50_4_22.Models.Brand>, IEnumerable<P50_4_22.Models.Category>>
 
 @{
     ViewBag.Title = "Панель администратора";
 }
 
 <div class="admin-container">
+    <!-- Таблица продуктов -->
     <div class="table-section">
         <h2>Продукты</h2>
         <table class="admin-table">
@@ -36,6 +37,7 @@
         @await Html.PartialAsync("~/Views/Shared/CRUDProduct/_AddProductModal.cshtml")
     </div>
 
+    <!-- Таблица брендов -->
     <div class="table-section">
         <h2>Бренды</h2>
         <table class="admin-table">
@@ -66,10 +68,45 @@
         </table>
         @await Html.PartialAsync("~/Views/Shared/CRUDBrand/_AddBrandModal.cshtml")
     </div>
+
+    <!-- Таблица категорий -->
+    <div class="table-section">
+        <h2>Категории</h2>
+        <table class="admin-table">
+            <thead>
+                <tr>
+                    <th>Название категории</th>
+                    <th>Действия</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">
+                        <button class="action-button create" onclick="showAddCategoryModal()">Добавить категорию</button>
+                    </td>
+                </tr>
+                @foreach (var item in Model.Item3)
+                {
+                    <tr>
+                        <td>@item.Categories</td>
+                        <td class="actions">
+                            <a asp-action="Details" asp-controller="CRUDController" asp-route-id="@item.IdCategories" class="action-link details">Подробнее</a>
+                            <a asp-action="Edit" asp-controller="CRUDController" asp-route-id="@item.IdCategories" class="action-link edit">Изменить</a>
+                            <a asp-action="Delete" asp-controller="CRUDController" asp-route-id="@item.IdCategories" class="action-link delete">Удалить</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @await Html.PartialAsync("~/Views/Shared/CRUDCategories/_AddCategoriesModal.cshtml")
+    </div>
 </div>
 
-@section Scripts {
+@section Styles {
     <link rel="stylesheet" href="~/css/admin-panel.css" />
+}
+
+@section Scripts {
     <partial name="_ValidationScriptsPartial" />
     <script src="~/js/admin-modal.js"></script>
 }

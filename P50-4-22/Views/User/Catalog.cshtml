@@ -2,12 +2,10 @@
 
 <div class="catalog-container">
     <div class="row">
-        <!-- Фильтры (категории, бренды и сортировка) -->
         <div class="col-md-3">
             <div class="filter-section">
                 <h3 class="filter-title">Фильтры</h3>
 
-                <!-- Сортировка -->
                 <div class="sort-section">
                     <label for="sortSelect" class="sort-label">Сортировка</label>
                     <select id="sortSelect" class="sort-select">
@@ -16,11 +14,9 @@
                     </select>
                 </div>
 
-                <!-- Фильтр по категориям -->
                 <h5 class="filter-subtitle">Категории</h5>
                 <div class="category-filter">
                     @{
-                        // Используем HashSet для уникальных категорий
                         var uniqueCategories = Model
                         .Where(i => i.Categories != null && !string.IsNullOrEmpty(i.Categories.Categories))
                         .Select(i => i.Categories.Categories)
@@ -29,7 +25,6 @@
                     }
                     @foreach (var category in uniqueCategories)
                     {
-                        // Генерируем безопасный id, заменяя пробелы и специальные символы
                         var safeCategoryId = $"category-{category.Replace(" ", "-").Replace("&", "and")}";
                         <div class="category-item">
                             <input class="category-checkbox" type="checkbox" value="@category" id="@safeCategoryId" />
@@ -38,11 +33,9 @@
                     }
                 </div>
 
-                <!-- Фильтр по брендам -->
                 <h5 class="filter-subtitle">Бренды</h5>
                 <div class="brand-filter">
                     @{
-                        // Используем HashSet для уникальных брендов
                         var uniqueBrands = Model
                         .Where(i => i.Brands != null && !string.IsNullOrEmpty(i.Brands.Brand1))
                         .Select(i => i.Brands.Brand1)
@@ -51,7 +44,6 @@
                     }
                     @foreach (var brand in uniqueBrands)
                     {
-                        // Генерируем безопасный id для брендов
                         var safeBrandId = $"brand-{brand.Replace(" ", "-").Replace("&", "and")}";
                         <div class="brand-item">
                             <input class="brand-checkbox" type="checkbox" value="@brand" id="@safeBrandId" />
@@ -60,14 +52,13 @@
                     }
                 </div>
 
-                <!-- Кнопка очистки фильтров -->
                 <button class="clear-filters-btn">Очистить фильтры</button>
             </div>
         </div>
 
-        <!-- Список товаров -->
+
         <div class="col-md-9">
-            <!-- Поиск -->
+
             <div class="search-section">
                 <div class="search-wrapper">
                     <span class="search-icon">
@@ -77,7 +68,7 @@
                 </div>
             </div>
 
-            <!-- Список товаров -->
+    
             <div id="productList" class="product-grid">
                 @foreach (var i in Model)
                 {
@@ -89,7 +80,6 @@
                          data-id="@i.IdCatalogproducts">
                         <div class="product-image-wrapper">
                             <img src="~/lib/Images/@i.Img" class="product-image" alt="@i.ProductName">
-                            <!-- Кнопка "Добавить в избранное" -->
                             <button class="favorite-btn" onclick="toggleFavorite(@i.IdCatalogproducts)">
                                 <i class="bi bi-heart"></i>
                                 <i class="bi bi-heart-fill d-none"></i>
@@ -102,12 +92,10 @@
                             <p class="product-description">@i.DescriptionProduct</p>
                             <p class="product-price">@i.PriceOfProduct ₽</p>
 
-                            <!-- Средний рейтинг -->
                             <div class="product-rating">
                                 @await Component.InvokeAsync("AverageRating", new { CatalogroductId = i.IdCatalogproducts })
                             </div>
 
-                            <!-- Форма добавления в корзину -->
                             <form asp-action="AddToCart" method="post" class="add-to-cart-form">
                                 @Html.AntiForgeryToken()
                                 <input type="hidden" name="catalogId" value="@i.IdCatalogproducts" />
