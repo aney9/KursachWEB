@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\user\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\user\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\js\\favorites.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\js\\favorites.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\user\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\user\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\user\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\user\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\js\\catalog.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\js\\catalog.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\auth\\_verifycodemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\auth\\_verifycodemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\catalog.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\catalog.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\auth\\_forgotpasswordmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\auth\\_forgotpasswordmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\auth\\_registermodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,24 +55,80 @@
       "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\auth\\_loginmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\auth\\_forgotpasswordmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\auth\\_forgotpasswordmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\profile\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\profile\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\profile\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\profile\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\profile\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\crud\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\crud\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\crud\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\crud\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\crudproduct\\_addproductmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\crudproduct\\_addproductmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\models\\petstorerpmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\models\\petstorerpmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\crudbrand\\_addbrandmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\crudbrand\\_addbrandmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\admin-panel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\admin-panel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\js\\admin-modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\js\\admin-modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\js\\auth-modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\js\\auth-modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\create-product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\create-product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\wwwroot\\css\\auth.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\auth\\_resetpasswordmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\auth\\_resetpasswordmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\profile\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\profile\\registr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\auth\\_verifycodemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\auth\\_verifycodemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\views\\shared\\auth\\_resetpasswordmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|solutionrelative:p50-4-22\\views\\shared\\auth\\_resetpasswordmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6791A95C-10A1-436B-9B2E-ADB06DCB2531}|P50-4-22\\P50-4-22.csproj|c:\\users\\timof\\onedrive\\desktop\\\u043C\u043F\u0442\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\p50-4-22\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -78,49 +154,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "favorites.js",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\favorites.js",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\js\\favorites.js",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\favorites.js",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\js\\favorites.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-28T22:51:32.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Favorites.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Favorites.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\User\\Favorites.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Favorites.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\User\\Favorites.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:39:38.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\UserController.cs",
+              "RelativeToolTip": "P50-4-22\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAADwv+MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T22:33:37.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:19:47.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Cart.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\User\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Cart.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\User\\Cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:29:37.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Catalog.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Catalog.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\User\\Catalog.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Catalog.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\User\\Catalog.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:29:41.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Program.cs",
               "RelativeDocumentMoniker": "P50-4-22\\Program.cs",
               "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Program.cs",
               "RelativeToolTip": "P50-4-22\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAiwEQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T22:28:14.805Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\User.cs",
-              "RelativeDocumentMoniker": "P50-4-22\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\User.cs",
-              "RelativeToolTip": "P50-4-22\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T22:20:55.91Z"
+              "WhenOpened": "2025-03-27T22:28:14.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CRUDController.cs",
-              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\CRUDController.cs",
-              "RelativeDocumentMoniker": "P50-4-22\\Controllers\\CRUDController.cs",
-              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\CRUDController.cs",
-              "RelativeToolTip": "P50-4-22\\Controllers\\CRUDController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T22:15:51.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "P50-4-22\\Controllers\\ProfileController.cs",
               "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\ProfileController.cs",
               "RelativeToolTip": "P50-4-22\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAAwB8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAMwF0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T21:30:39.161Z",
               "EditorCaption": ""
@@ -128,18 +259,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Profile.cshtml",
-              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Profile.cshtml",
-              "RelativeDocumentMoniker": "P50-4-22\\Views\\Profile\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Profile.cshtml",
-              "RelativeToolTip": "P50-4-22\\Views\\Profile\\Profile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwCMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T21:30:53.463Z"
+              "Title": "catalog.js",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\catalog.js",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\js\\catalog.js",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\catalog.js",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\js\\catalog.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-28T22:38:32.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
+              "Title": "catalog.css",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\catalog.css",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\catalog.css",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\catalog.css",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\catalog.css",
+              "ViewState": "AgIAAHMBAAAAAAAAAAAAwJcBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-28T22:36:54.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "_RegisterModal.cshtml",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Auth\\_RegisterModal.cshtml",
               "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\Auth\\_RegisterModal.cshtml",
@@ -147,11 +292,25 @@
               "RelativeToolTip": "P50-4-22\\Views\\Shared\\Auth\\_RegisterModal.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T22:03:41.389Z"
+              "WhenOpened": "2025-03-27T22:03:41.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\User\\Details.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\User\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:29:43.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_LoginModal.cshtml",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Auth\\_LoginModal.cshtml",
               "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\Auth\\_LoginModal.cshtml",
@@ -159,11 +318,12 @@
               "RelativeToolTip": "P50-4-22\\Views\\Shared\\Auth\\_LoginModal.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T22:03:05.624Z"
+              "WhenOpened": "2025-03-27T22:03:05.624Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "_ForgotPasswordModal.cshtml",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Auth\\_ForgotPasswordModal.cshtml",
               "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\Auth\\_ForgotPasswordModal.cshtml",
@@ -171,35 +331,205 @@
               "RelativeToolTip": "P50-4-22\\Views\\Shared\\Auth\\_ForgotPasswordModal.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T22:04:21.628Z"
+              "WhenOpened": "2025-03-27T22:04:21.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_VerifyCodeModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Auth\\_VerifyCodeModal.cshtml",
-              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\Auth\\_VerifyCodeModal.cshtml",
-              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Auth\\_VerifyCodeModal.cshtml",
-              "RelativeToolTip": "P50-4-22\\Views\\Shared\\Auth\\_VerifyCodeModal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "UserProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\UserProfile.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Profile\\UserProfile.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\UserProfile.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Profile\\UserProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T22:04:46.093Z"
+              "WhenOpened": "2025-03-28T22:31:34.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
+              "Title": "Registr.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Profile\\Registr.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T21:31:00.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Profile.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Profile\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Profile.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Profile\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T21:30:53.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Edit.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\CRUD\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Edit.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\CRUD\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:31:30.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Details.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\CRUD\\Details.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\Details.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\CRUD\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:31:29.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_AddProductModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\CRUDProduct\\_AddProductModal.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\CRUDProduct\\_AddProductModal.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\CRUDProduct\\_AddProductModal.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\CRUDProduct\\_AddProductModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T21:44:26.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CRUDController.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\CRUDController.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Controllers\\CRUDController.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Controllers\\CRUDController.cs",
+              "RelativeToolTip": "P50-4-22\\Controllers\\CRUDController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAArwIEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T22:15:51.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\CRUD\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T21:48:12.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PetStoreRpmContext.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\PetStoreRpmContext.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Models\\PetStoreRpmContext.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\PetStoreRpmContext.cs",
+              "RelativeToolTip": "P50-4-22\\Models\\PetStoreRpmContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T22:26:57.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_AddBrandModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\CRUDBrand\\_AddBrandModal.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\CRUDBrand\\_AddBrandModal.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\CRUDBrand\\_AddBrandModal.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\CRUDBrand\\_AddBrandModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T22:10:52.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "admin-panel.css",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\admin-panel.css",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\admin-panel.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-28T21:42:08.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "admin-modal.js",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\admin-modal.js",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\js\\admin-modal.js",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\admin-modal.js",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\js\\admin-modal.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-28T21:38:57.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "P50-4-22\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Models\\Brand.cs",
+              "RelativeToolTip": "P50-4-22\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T15:23:00.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "auth-modal.js",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\auth-modal.js",
               "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\js\\auth-modal.js",
               "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\js\\auth-modal.js",
               "RelativeToolTip": "P50-4-22\\wwwroot\\js\\auth-modal.js",
-              "ViewState": "AgIAAKEAAAAAAAAAAAAcwMQAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAwwMQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-27T22:05:57.87Z"
+              "WhenOpened": "2025-03-27T22:05:57.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
+              "Title": "create-product.css",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\create-product.css",
+              "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\create-product.css",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\create-product.css",
+              "RelativeToolTip": "P50-4-22\\wwwroot\\css\\create-product.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-28T21:40:47.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "auth.css",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\auth.css",
               "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\auth.css",
@@ -211,7 +541,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 30,
+              "Title": "_VerifyCodeModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Auth\\_VerifyCodeModal.cshtml",
+              "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\Auth\\_VerifyCodeModal.cshtml",
+              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Auth\\_VerifyCodeModal.cshtml",
+              "RelativeToolTip": "P50-4-22\\Views\\Shared\\Auth\\_VerifyCodeModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T22:04:46.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "_ResetPasswordModal.cshtml",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Shared\\Auth\\_ResetPasswordModal.cshtml",
               "RelativeDocumentMoniker": "P50-4-22\\Views\\Shared\\Auth\\_ResetPasswordModal.cshtml",
@@ -223,19 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Registr.cshtml",
-              "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Registr.cshtml",
-              "RelativeDocumentMoniker": "P50-4-22\\Views\\Profile\\Registr.cshtml",
-              "ToolTip": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\Views\\Profile\\Registr.cshtml",
-              "RelativeToolTip": "P50-4-22\\Views\\Profile\\Registr.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T21:31:00.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 32,
               "Title": "Profile.css",
               "DocumentMoniker": "C:\\Users\\timof\\OneDrive\\Desktop\\\u041C\u041F\u0422\\\u043A\u0443\u0440\u0441\u0430\u0447\\asp-master\\P50-4-22\\wwwroot\\css\\Profile.css",
               "RelativeDocumentMoniker": "P50-4-22\\wwwroot\\css\\Profile.css",

@@ -30,11 +30,6 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="Map">
-                                <i class="fas fa-map-marked-alt me-1"></i> Карта
-                            </a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Profile" asp-action="Profile">
                                 <i class="fas fa-user me-1"></i> Профиль
                             </a>
@@ -42,6 +37,11 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="User" asp-action="Cart">
                                 <i class="fas fa-shopping-cart me-1"></i> Корзина
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="User" asp-action="Favorites">
+                                <i class="fas fa-heart me-1"></i> Избранное
                             </a>
                         </li>
                         @if (User.Identity.IsAuthenticated)

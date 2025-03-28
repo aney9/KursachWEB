@@ -5,7 +5,8 @@
     background: #21201F;
     width: 100%;
     padding-top: 60px; /* Отступ сверху для контента */
-    padding-bottom: 60px; /* Отступ снизу для контента */
+    padding-bottom: 60px;
+    position: relative;
 }
 
 .table-section {
@@ -112,34 +113,36 @@ h2 {
         color: #FFFFFF;
     }
 
-/* Стили для модального окна */
 .modal {
     display: none;
-    position: fixed;
-    z-index: 1;
+    position: fixed; /* фиксированное позиционирование */
+    z-index: 1000;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: rgba(0,0,0,0.6);
-    overflow: hidden; /* Убираем прокрутку модального окна */
+    overflow: auto; /* разрешаем прокрутку всей модалки */
 }
 
 .modal-content {
     background: #3D3D3D;
-    margin: 60px auto; /* Отступ сверху 60px, такой же как снизу у admin-container */
+    margin: 5vh auto;
     padding: 2rem;
     border: 1px solid #B85F00;
     border-radius: 5px;
     box-shadow: 0 0 20px #B85F00;
     width: 80%;
     max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto; /* именно это разрешает скролл контента */
     color: #FFFFFF;
-    position: absolute;
-    top: 0; /* Начальная позиция для точного контроля */
-    left: 50%;
-    transform: translateX(-50%); /* Центрируем по горизонтали */
+    position: relative;
+    box-sizing: border-box;
 }
+
+
+
 
 .close {
     color: #FFFFFF;

@@ -19,5 +19,5 @@ public partial class Review
 
     public virtual CatalogProduct Catalogroduct { get; set; } = null!;
 
-    public virtual User Users { get; set; } = null!;
+    public virtual Userr Users { get; set; } = null!;
 }

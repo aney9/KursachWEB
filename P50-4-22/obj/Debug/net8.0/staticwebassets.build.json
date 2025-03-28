@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hjY93ZXNc8DhcQb45KqKJ1azw9goO99I3P0HyVH0bjY=",
+  "Hash": "kpdi3FyxfcFZjqsjxqD3XJmGGlSnFwssGGCwlxpsAJQ=",
   "Source": "P50-4-22",
   "BasePath": "_content/P50-4-22",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ashc6k7xlq",
-      "Integrity": "9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4=",
+      "Fingerprint": "euc84rd9zb",
+      "Integrity": "+ixh3PBLf8Pjl1OIYWTQ/b7djC97vsDzNfQr1xB2SIU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\admin-panel.css"
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ntx0njg8sr",
-      "Integrity": "xbGcpNYAaXXVG/ezCbACxbP/qABUo221YTpkuBhgMwE=",
+      "Fingerprint": "x6xjx6erq8",
+      "Integrity": "N5hWSvEt/Beu8wNGQz6QR3hP9X3TGk8ObEE1G3H4nU8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\create-product.css"
@@ -388,11 +388,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pd76a698ek",
-      "Integrity": "3RxcylBEVtkDNuw+oHZjfN1XQHuDzaXFSzD77oMvzQ4=",
+      "Fingerprint": "i3ru2exmue",
+      "Integrity": "rq5OlvRMJTRrT8P+SGwP066/rvR31UaDjcYmQjnZ6Go=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\catalog.js"
+    },
+    {
+      "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\favorites.js",
+      "SourceId": "P50-4-22",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\",
+      "BasePath": "_content/P50-4-22",
+      "RelativePath": "js/favorites#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "41bv1irujp",
+      "Integrity": "aF134rLSJMvEr7B8XERDNj805/foyQvdvvf23q2kT0c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\favorites.js"
     },
     {
       "Identity": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\site.js",
@@ -1836,51 +1857,6 @@
       ]
     },
     {
-      "Route": "css/admin-panel.ashc6k7xlq.css",
-      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4269"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 11:57:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ashc6k7xlq"
-        },
-        {
-          "Name": "label",
-          "Value": "css/admin-panel.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4="
-        }
-      ]
-    },
-    {
       "Route": "css/admin-panel.css",
       "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
       "Selectors": [],
@@ -1891,7 +1867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4269"
+          "Value": "4118"
         },
         {
           "Name": "Content-Type",
@@ -1899,11 +1875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4=\""
+          "Value": "\"+ixh3PBLf8Pjl1OIYWTQ/b7djC97vsDzNfQr1xB2SIU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 11:57:30 GMT"
+          "Value": "Fri, 28 Mar 2025 22:10:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1913,7 +1889,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4="
+          "Value": "sha256-+ixh3PBLf8Pjl1OIYWTQ/b7djC97vsDzNfQr1xB2SIU="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-panel.euc84rd9zb.css",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\admin-panel.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+ixh3PBLf8Pjl1OIYWTQ/b7djC97vsDzNfQr1xB2SIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 22:10:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "euc84rd9zb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-panel.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+ixh3PBLf8Pjl1OIYWTQ/b7djC97vsDzNfQr1xB2SIU="
         }
       ]
     },
@@ -2092,7 +2113,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1938"
+          "Value": "2108"
         },
         {
           "Name": "Content-Type",
@@ -2100,11 +2121,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xbGcpNYAaXXVG/ezCbACxbP/qABUo221YTpkuBhgMwE=\""
+          "Value": "\"N5hWSvEt/Beu8wNGQz6QR3hP9X3TGk8ObEE1G3H4nU8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 21:25:58 GMT"
+          "Value": "Fri, 28 Mar 2025 21:43:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2114,12 +2135,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xbGcpNYAaXXVG/ezCbACxbP/qABUo221YTpkuBhgMwE="
+          "Value": "sha256-N5hWSvEt/Beu8wNGQz6QR3hP9X3TGk8ObEE1G3H4nU8="
         }
       ]
     },
     {
-      "Route": "css/create-product.ntx0njg8sr.css",
+      "Route": "css/create-product.x6xjx6erq8.css",
       "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\css\\create-product.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2129,7 +2150,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1938"
+          "Value": "2108"
         },
         {
           "Name": "Content-Type",
@@ -2137,11 +2158,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xbGcpNYAaXXVG/ezCbACxbP/qABUo221YTpkuBhgMwE=\""
+          "Value": "\"N5hWSvEt/Beu8wNGQz6QR3hP9X3TGk8ObEE1G3H4nU8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 21:25:58 GMT"
+          "Value": "Fri, 28 Mar 2025 21:43:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2151,7 +2172,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ntx0njg8sr"
+          "Value": "x6xjx6erq8"
         },
         {
           "Name": "label",
@@ -2159,7 +2180,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xbGcpNYAaXXVG/ezCbACxbP/qABUo221YTpkuBhgMwE="
+          "Value": "sha256-N5hWSvEt/Beu8wNGQz6QR3hP9X3TGk8ObEE1G3H4nU8="
         }
       ]
     },
@@ -2760,7 +2781,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 21:17:50 GMT"
+          "Value": "Fri, 28 Mar 2025 22:09:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2805,7 +2826,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 21:17:50 GMT"
+          "Value": "Fri, 28 Mar 2025 22:09:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2902,6 +2923,51 @@
       ]
     },
     {
+      "Route": "js/catalog.i3ru2exmue.js",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\catalog.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rq5OlvRMJTRrT8P+SGwP066/rvR31UaDjcYmQjnZ6Go=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 22:40:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i3ru2exmue"
+        },
+        {
+          "Name": "label",
+          "Value": "js/catalog.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rq5OlvRMJTRrT8P+SGwP066/rvR31UaDjcYmQjnZ6Go="
+        }
+      ]
+    },
+    {
       "Route": "js/catalog.js",
       "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\catalog.js",
       "Selectors": [],
@@ -2912,7 +2978,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4231"
+          "Value": "4004"
         },
         {
           "Name": "Content-Type",
@@ -2920,11 +2986,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3RxcylBEVtkDNuw+oHZjfN1XQHuDzaXFSzD77oMvzQ4=\""
+          "Value": "\"rq5OlvRMJTRrT8P+SGwP066/rvR31UaDjcYmQjnZ6Go=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 20:01:08 GMT"
+          "Value": "Fri, 28 Mar 2025 22:40:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2934,13 +3000,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3RxcylBEVtkDNuw+oHZjfN1XQHuDzaXFSzD77oMvzQ4="
+          "Value": "sha256-rq5OlvRMJTRrT8P+SGwP066/rvR31UaDjcYmQjnZ6Go="
         }
       ]
     },
     {
-      "Route": "js/catalog.pd76a698ek.js",
-      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\catalog.js",
+      "Route": "js/favorites.41bv1irujp.js",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\favorites.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2949,7 +3015,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4231"
+          "Value": "913"
         },
         {
           "Name": "Content-Type",
@@ -2957,11 +3023,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3RxcylBEVtkDNuw+oHZjfN1XQHuDzaXFSzD77oMvzQ4=\""
+          "Value": "\"aF134rLSJMvEr7B8XERDNj805/foyQvdvvf23q2kT0c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 20:01:08 GMT"
+          "Value": "Fri, 28 Mar 2025 22:51:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2971,15 +3037,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pd76a698ek"
+          "Value": "41bv1irujp"
         },
         {
           "Name": "label",
-          "Value": "js/catalog.js"
+          "Value": "js/favorites.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3RxcylBEVtkDNuw+oHZjfN1XQHuDzaXFSzD77oMvzQ4="
+          "Value": "sha256-aF134rLSJMvEr7B8XERDNj805/foyQvdvvf23q2kT0c="
+        }
+      ]
+    },
+    {
+      "Route": "js/favorites.js",
+      "AssetFile": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\favorites.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF134rLSJMvEr7B8XERDNj805/foyQvdvvf23q2kT0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 22:51:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF134rLSJMvEr7B8XERDNj805/foyQvdvvf23q2kT0c="
         }
       ]
     },
@@ -8336,7 +8439,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 22:09:45 GMT"
+          "Value": "Fri, 28 Mar 2025 22:53:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8373,7 +8476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 22:09:45 GMT"
+          "Value": "Fri, 28 Mar 2025 22:53:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8422,7 +8525,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 22:09:45 GMT"
+          "Value": "Fri, 28 Mar 2025 22:53:16 GMT"
         },
         {
           "Name": "Link",
@@ -8463,7 +8566,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 22:09:45 GMT"
+          "Value": "Fri, 28 Mar 2025 22:53:16 GMT"
         },
         {
           "Name": "Link",

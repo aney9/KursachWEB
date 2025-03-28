@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\js\\catalog.js"
     },
     {
+      "Id": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\favorites.js",
+      "PackagePath": "staticwebassets\\js\\favorites.js"
+    },
+    {
       "Id": "C:\\Users\\timof\\OneDrive\\Desktop\\МПТ\\курсач\\asp-master\\P50-4-22\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

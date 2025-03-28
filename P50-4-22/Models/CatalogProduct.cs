@@ -25,7 +25,9 @@ public partial class CatalogProduct
 
     public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
 
-    public virtual Category Categories { get; set; } = null!;
+    public virtual Categorie Categories { get; set; } = null!;
+
+    public virtual ICollection<Favorite> Favorites { get; set; } = new List<Favorite>();
 
     public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
 }

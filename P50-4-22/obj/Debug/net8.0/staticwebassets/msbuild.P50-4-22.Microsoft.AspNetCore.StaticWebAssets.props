@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ashc6k7xlq</Fingerprint>
-      <Integrity>9tS7v/bLmu6o313c71ZKqdQzEN8U+n/T6jWDBrc/id4=</Integrity>
+      <Fingerprint>euc84rd9zb</Fingerprint>
+      <Integrity>+ixh3PBLf8Pjl1OIYWTQ/b7djC97vsDzNfQr1xB2SIU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin-panel.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ntx0njg8sr</Fingerprint>
-      <Integrity>xbGcpNYAaXXVG/ezCbACxbP/qABUo221YTpkuBhgMwE=</Integrity>
+      <Fingerprint>x6xjx6erq8</Fingerprint>
+      <Integrity>N5hWSvEt/Beu8wNGQz6QR3hP9X3TGk8ObEE1G3H4nU8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\create-product.css'))</OriginalItemSpec>
@@ -246,11 +246,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pd76a698ek</Fingerprint>
-      <Integrity>3RxcylBEVtkDNuw+oHZjfN1XQHuDzaXFSzD77oMvzQ4=</Integrity>
+      <Fingerprint>i3ru2exmue</Fingerprint>
+      <Integrity>rq5OlvRMJTRrT8P+SGwP066/rvR31UaDjcYmQjnZ6Go=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\catalog.js'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\favorites.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>P50-4-22</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/P50-4-22</BasePath>
+      <RelativePath>js/favorites.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>41bv1irujp</Fingerprint>
+      <Integrity>aF134rLSJMvEr7B8XERDNj805/foyQvdvvf23q2kT0c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\favorites.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))">
       <SourceType>Package</SourceType>

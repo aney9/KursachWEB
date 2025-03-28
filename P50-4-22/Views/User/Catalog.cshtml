@@ -56,9 +56,7 @@
             </div>
         </div>
 
-
         <div class="col-md-9">
-
             <div class="search-section">
                 <div class="search-wrapper">
                     <span class="search-icon">
@@ -68,7 +66,6 @@
                 </div>
             </div>
 
-    
             <div id="productList" class="product-grid">
                 @foreach (var i in Model)
                 {
@@ -80,10 +77,14 @@
                          data-id="@i.IdCatalogproducts">
                         <div class="product-image-wrapper">
                             <img src="~/lib/Images/@i.Img" class="product-image" alt="@i.ProductName">
-                            <button class="favorite-btn" onclick="toggleFavorite(@i.IdCatalogproducts)">
-                                <i class="bi bi-heart"></i>
-                                <i class="bi bi-heart-fill d-none"></i>
-                            </button>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                var isFavorite = ViewBag.FavoriteProductIds.Contains(i.IdCatalogproducts);
+                                <button class="favorite-btn @(isFavorite ? "favorited" : "")" data-product-id="@i.IdCatalogproducts" onclick="toggleFavorite(@i.IdCatalogproducts)">
+                                    <i class="bi bi-heart"></i>
+                                    <i class="bi bi-heart-fill d-none"></i>
+                                </button>
+                            }
                         </div>
                         <div class="product-content">
                             <a asp-controller="User" asp-action="Details" asp-route-id="@i.IdCatalogproducts" class="product-title">

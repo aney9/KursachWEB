@@ -20,9 +20,9 @@ namespace P50_4_22.Controllers
         {
             var products = await db.CatalogProducts.ToListAsync();
             var brands = await db.Brands.ToListAsync() ?? new List<Brand>();
-            var categories = await db.Categories.ToListAsync() ?? new List<Category>();
+            var categories = await db.Categories.ToListAsync() ?? new List<Categorie>();
 
-            var model = new Tuple<IEnumerable<CatalogProduct>, IEnumerable<Brand>, IEnumerable<Category>>(products, brands, categories);
+            var model = new Tuple<IEnumerable<CatalogProduct>, IEnumerable<Brand>, IEnumerable<Categorie>>(products, brands, categories);
 
             ViewBag.Brands = new SelectList(brands, "IdBrands", "Brand1");
             ViewBag.Categories = new SelectList(categories, "IdCategories", "Categories");
@@ -127,7 +127,7 @@ namespace P50_4_22.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateCategory(Category category)
+        public async Task<IActionResult> CreateCategory(Categorie category)
         {
             db.Categories.Add(category);
             await db.SaveChangesAsync();

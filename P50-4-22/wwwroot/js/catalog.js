@@ -1,6 +1,4 @@
-﻿// catalog.js
-
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
     // Привязываем события
     document.getElementById('sortSelect').addEventListener('change', sortProducts);
     document.getElementById('searchInput').addEventListener('keyup', filterProducts);
@@ -11,9 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
         checkbox.addEventListener('change', filterProducts);
     });
     document.querySelector('.clear-filters-btn').addEventListener('click', clearFilters);
-
-    // Инициализация избранных товаров
-    initializeFavorites();
 
     // Инициализация при загрузке страницы
     filterProducts();
@@ -70,31 +65,31 @@ function sortProducts() {
     });
 }
 
-function initializeFavorites() {
-    const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    document.querySelectorAll('.product-card').forEach(product => {
-        const productId = product.getAttribute('data-id');
-        const favoriteBtn = product.querySelector('.favorite-btn');
-        if (favorites.includes(productId)) {
-            favoriteBtn.classList.add('favorited');
-        }
-    });
-}
-
 function toggleFavorite(productId) {
-    let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    const productCard = document.querySelector(`.product-card[data-id="${productId}"]`);
-    const favoriteBtn = productCard.querySelector('.favorite-btn');
+    const button = document.querySelector(`.favorite-btn[data-product-id="${productId}"]`);
+    const isFavorited = button.classList.contains('favorited');
 
-    if (favorites.includes(productId.toString())) {
-        // Удаляем из избранного
-        favorites = favorites.filter(id => id !== productId.toString());
-        favoriteBtn.classList.remove('favorited');
-    } else {
-        // Добавляем в избранное
-        favorites.push(productId.toString());
-        favoriteBtn.classList.add('favorited');
-    }
-
-    localStorage.setItem('favorites', JSON.stringify(favorites));
+    fetch('/User/ToggleFavorite', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ productId: productId })
+    })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                if (data.isFavorite) {
+                    button.classList.add('favorited');
+                } else {
+                    button.classList.remove('favorited');
+                }
+            } else {
+                alert(data.message || 'Произошла ошибка при обновлении избранного.');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Произошла ошибка при выполнении запроса.');
+        });
 }

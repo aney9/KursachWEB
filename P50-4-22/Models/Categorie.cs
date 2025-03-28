@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace P50_4_22.Models;
 
-public partial class Category
+public partial class Categorie
 {
     public int IdCategories { get; set; }
 

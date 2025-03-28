@@ -1,12 +1,15 @@
 ﻿.login-container {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: flex-start;
     min-height: calc(100vh - 120px);
     background: #21201F;
     width: 100%;
-    padding-top: 60px; 
+    padding-top: 60px;
     padding-bottom: 60px;
+    position: absolute; /* Изменено на absolute для прокрутки */
+    top: 0;
+    left: 0;
 }
 
 .login-form {
@@ -15,10 +18,11 @@
     border: 1px solid #B85F00;
     border-radius: 0;
     box-shadow: 0 0 20px #B85F00;
-    width: 80%; 
+    width: 80%;
     max-width: none;
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /* Относительное позиционирование внутри контейнера */
 }
 
 h2 {
@@ -32,7 +36,7 @@ h2 {
     margin-bottom: 1.5rem;
     width: calc(100% - 3rem);
     margin-left: 1.5rem;
-    margin-right: 1.5rem; 
+    margin-right: 1.5rem;
 }
 
 .form-label {
@@ -54,22 +58,22 @@ h2 {
     color: #FFFFFF;
 }
 
-    .form-input:focus {
-        outline: none;
-        border-color: #B85F00;
-        box-shadow: 0 0 5px #B85F00;
-        background-color: #21201F;
-        color: #FFFFFF;
-    }
+.form-input:focus {
+    outline: none;
+    border-color: #B85F00;
+    box-shadow: 0 0 5px #B85F00;
+    background-color: #21201F;
+    color: #FFFFFF;
+}
 
-    .form-input:not(:placeholder-shown) {
-        border-color: #B85F00;
-        background-color: #21201F;
-        color: #FFFFFF;
-    }
+.form-input:not(:placeholder-shown) {
+    border-color: #B85F00;
+    background-color: #21201F;
+    color: #FFFFFF;
+}
 
 .login-button {
-    width: calc(100% - 3rem); 
+    width: calc(100% - 3rem);
     padding: 0.8rem;
     background: #21201F;
     color: #FFC100;
@@ -79,12 +83,12 @@ h2 {
     cursor: pointer;
     transition: background 0.3s ease;
     margin-left: 1.5rem;
-    margin-right: 1.5rem; 
+    margin-right: 1.5rem;
 }
 
-    .login-button:hover {
-        background: #21201F;
-    }
+.login-button:hover {
+    background: #21201F;
+}
 
 .error-message {
     display: block;

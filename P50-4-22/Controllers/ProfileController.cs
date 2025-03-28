@@ -46,7 +46,7 @@ namespace P50_4_22.Controllers
             }
 
             string hashedPassword = HashPassword(Loginpassword);
-            var user = db.Users.FirstOrDefault(u => u.Email == Email && u.Loginpassword == hashedPassword);
+            var user = db.Userrs.FirstOrDefault(u => u.Email == Email && u.Loginpassword == hashedPassword);
 
             if (user != null)
             {
@@ -83,7 +83,7 @@ namespace P50_4_22.Controllers
         [HttpPost]
         public async Task<IActionResult> Registr(string Loginvhod, string Loginpassword, string PhoneNumber, string Email, string ClientName)
         {
-            if (db.Users.Any(u => u.Email == Email))
+            if (db.Userrs.Any(u => u.Email == Email))
             {
                 ViewBag.ErrorMessage = "Пользователь с таким email уже существует";
                 return View("Profile");
@@ -91,7 +91,7 @@ namespace P50_4_22.Controllers
 
             string hashedPassword = HashPassword(Loginpassword);
 
-            var user = new User
+            var user = new Userr
             {
                 Loginvhod = Loginvhod,
                 Loginpassword = hashedPassword,
@@ -100,7 +100,7 @@ namespace P50_4_22.Controllers
                 ClientName = ClientName,
                 RolesId = 2
             };
-            db.Users.Add(user);
+            db.Userrs.Add(user);
             await db.SaveChangesAsync();
 
             return RedirectToAction("Profile");
@@ -116,7 +116,7 @@ namespace P50_4_22.Controllers
                 return RedirectToAction("Profile");
             }
 
-            var user = db.Users.FirstOrDefault(u => u.IdUsers == int.Parse(userId));
+            var user = db.Userrs.FirstOrDefault(u => u.IdUsers == int.Parse(userId));
             if (user == null)
             {
                 return RedirectToAction("Profile");
@@ -128,7 +128,7 @@ namespace P50_4_22.Controllers
         [HttpPost]
         public IActionResult ForgotPassword([FromBody] ForgotPasswordModel model)
         {
-            var user = db.Users.FirstOrDefault(u => u.Email == model.Email);
+            var user = db.Userrs.FirstOrDefault(u => u.Email == model.Email);
             if (user == null)
             {
                 return Json(new { success = false, message = "Пользователь с таким email не найден" });
@@ -182,14 +182,14 @@ namespace P50_4_22.Controllers
                 return Json(new { success = false, message = "Сессия восстановления пароля истекла" });
             }
 
-            var user = db.Users.FirstOrDefault(u => u.Email == model.Email);
+            var user = db.Userrs.FirstOrDefault(u => u.Email == model.Email);
             if (user == null)
             {
                 return Json(new { success = false, message = "Пользователь не найден" });
             }
 
             user.Loginpassword = HashPassword(model.NewPassword);
-            db.Users.Update(user);
+            db.Userrs.Update(user);
             await db.SaveChangesAsync();
 
             _memoryCache.Remove(emailLower);

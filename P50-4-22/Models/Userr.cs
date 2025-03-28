@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace P50_4_22.Models;
 
-public partial class User
+public partial class Userr
 {
     public int IdUsers { get; set; }
 
@@ -19,7 +19,9 @@ public partial class User
 
     public int RolesId { get; set; }
 
+    public virtual ICollection<Favorite> Favorites { get; set; } = new List<Favorite>();
+
     public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
 
-    public virtual Role Roles { get; set; } = null!;
+    public virtual Rolee Roles { get; set; } = null!;
 }

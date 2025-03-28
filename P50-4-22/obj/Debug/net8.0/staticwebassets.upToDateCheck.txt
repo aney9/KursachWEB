@@ -12,6 +12,7 @@ wwwroot\favicon.ico
 wwwroot\js\admin-modal.js
 wwwroot\js\auth-modal.js
 wwwroot\js\catalog.js
+wwwroot\js\favorites.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

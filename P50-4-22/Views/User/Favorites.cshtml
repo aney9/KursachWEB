@@ -1,0 +1,60 @@
+﻿@model IEnumerable<P50_4_22.Models.CatalogProduct>
+
+<div class="catalog-container">
+    <h2 class="filter-title">Избранное</h2>
+
+    @if (Model.Any())
+    {
+        <div id="favoritesList" class="product-grid">
+            @foreach (var i in Model)
+            {
+                <div class="product-card"
+                     data-name="@i.ProductName"
+                     data-price="@i.PriceOfProduct"
+                     data-brand="@i.Brands?.Brand1"
+                     data-category="@i.Categories?.Categories"
+                     data-id="@i.IdCatalogproducts">
+                    <div class="product-image-wrapper">
+                        <img src="~/lib/Images/@i.Img" class="product-image" alt="@i.ProductName">
+                        <button class="favorite-btn favorited" data-product-id="@i.IdCatalogproducts" onclick="removeFromFavorites(@i.IdCatalogproducts)">
+                            <i class="bi bi-heart"></i>
+                            <i class="bi bi-heart-fill d-none"></i>
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <a asp-controller="User" asp-action="Details" asp-route-id="@i.IdCatalogproducts" class="product-title">
+                            <h5>@i.ProductName</h5>
+                        </a>
+                        <p class="product-description">@i.DescriptionProduct</p>
+                        <p class="product-price">@i.PriceOfProduct ₽</p>
+
+                        <div class="product-rating">
+                            @await Component.InvokeAsync("AverageRating", new { CatalogroductId = i.IdCatalogproducts })
+                        </div>
+
+                        <form asp-action="AddToCart" method="post" class="add-to-cart-form">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="catalogId" value="@i.IdCatalogproducts" />
+                            <input type="number" name="quantity" value="1" min="1" max="@i.Quantity" class="quantity-input" />
+                            <button type="submit" class="add-to-cart-btn">В корзину</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p class="text-center" style="color: #FFFFFF;">Ваш список избранного пуст.</p>
+    }
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/admin-panel.css" />
+    <link rel="stylesheet" href="~/css/catalog.css" />
+}
+
+@section Scripts {
+    <script src="~/js/favorites.js"></script>
+}
